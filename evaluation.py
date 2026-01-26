@@ -10,6 +10,20 @@ def load_cols(csv_path):
     y_prob = df['Prob'].tolist() if 'Prob' in df.columns else None
     return y_true, y_pred, y_prob
 
+
+def compute_metrics_diff(before_metrics, after_metrics):
+    diff = {}
+    for k, after_v in after_metrics.items():
+        before_v = before_metrics.get(k)
+        if isinstance(after_v, dict) and isinstance(before_v, dict):
+            diff[k] = {sub_k: after_v.get(sub_k, 0) - before_v.get(sub_k, 0) for sub_k in after_v}
+            continue
+        if isinstance(after_v, (int, float)) and isinstance(before_v, (int, float)):
+            diff[k] = round(after_v - before_v, 4)
+            continue
+        diff[k] = 'N/A'
+    return diff
+
 # log recording
 log_file = Path('logs/evaluation.log')
 logging.basicConfig(
@@ -43,3 +57,9 @@ for k, v in before_metrics.items():
 logger.info('After metrics:')
 for k, v in after_metrics.items():
     logger.info('  %s: %s', k, v)
+
+diff_metrics = compute_metrics_diff(before_metrics, after_metrics)
+logger.info('Diff metrics (After - Before):')
+for k, v in diff_metrics.items():
+    logger.info('  %s: %s', k, v)
+
