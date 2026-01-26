@@ -1,0 +1,452 @@
+2026-01-26 01:32:38,162 - INFO - 训练数据集大小: 1424
+2026-01-26 01:32:38,163 - INFO - 验证数据集大小: 708
+2026-01-26 01:32:38,164 - INFO - 测试数据集大小: 1424
+2026-01-26 01:32:40,458 - INFO - org best acc (train): 100.00% | (val): 91.24% | (test): 90.66%
+
+2026-01-26 01:32:40,820 - INFO - batch 0/72 done, last improvement 0 batches ago
+2026-01-26 01:32:40,820 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:32:40,821 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:41,822 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:42,888 - INFO - New accuracy (train) post training: 100.00% | (val) 91.81%
+
+2026-01-26 01:32:43,231 - INFO - batch 1/72 done, last improvement 1 batches ago
+2026-01-26 01:32:43,231 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.81%
+2026-01-26 01:32:43,232 - INFO - Found new best weights!
+2026-01-26 01:32:43,310 - INFO - new best acc (val): 91.81% | (test): 90.59%
+2026-01-26 01:32:43,311 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:44,047 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:45,134 - INFO - New accuracy (train) post training: 100.00% | (val) 90.68%
+
+2026-01-26 01:32:45,542 - INFO - batch 2/72 done, last improvement 1 batches ago
+2026-01-26 01:32:45,542 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.68%
+2026-01-26 01:32:45,543 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:46,298 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:47,350 - INFO - New accuracy (train) post training: 100.00% | (val) 90.96%
+
+2026-01-26 01:32:47,724 - INFO - batch 3/72 done, last improvement 2 batches ago
+2026-01-26 01:32:47,724 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.96%
+2026-01-26 01:32:47,725 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:48,449 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:49,521 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:32:49,864 - INFO - batch 4/72 done, last improvement 3 batches ago
+2026-01-26 01:32:49,864 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:32:49,865 - INFO - Found new best weights!
+2026-01-26 01:32:49,942 - INFO - new best acc (val): 91.95% | (test): 90.66%
+2026-01-26 01:32:49,943 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:50,723 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:51,779 - INFO - New accuracy (train) post training: 100.00% | (val) 91.24%
+
+2026-01-26 01:32:52,146 - INFO - batch 5/72 done, last improvement 1 batches ago
+2026-01-26 01:32:52,147 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:32:52,148 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:52,909 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:53,973 - INFO - New accuracy (train) post training: 100.00% | (val) 90.82%
+
+2026-01-26 01:32:54,336 - INFO - batch 6/72 done, last improvement 2 batches ago
+2026-01-26 01:32:54,336 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.82%
+2026-01-26 01:32:54,337 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:55,104 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:56,159 - INFO - New accuracy (train) post training: 100.00% | (val) 90.96%
+
+2026-01-26 01:32:56,532 - INFO - batch 7/72 done, last improvement 3 batches ago
+2026-01-26 01:32:56,532 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.96%
+2026-01-26 01:32:56,533 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:57,298 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:32:58,378 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:32:58,749 - INFO - batch 8/72 done, last improvement 4 batches ago
+2026-01-26 01:32:58,750 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:32:58,750 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:32:59,492 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:00,593 - INFO - New accuracy (train) post training: 100.00% | (val) 91.81%
+
+2026-01-26 01:33:00,965 - INFO - batch 9/72 done, last improvement 5 batches ago
+2026-01-26 01:33:00,966 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.81%
+2026-01-26 01:33:00,967 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:01,752 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:02,828 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:33:03,218 - INFO - batch 10/72 done, last improvement 6 batches ago
+2026-01-26 01:33:03,218 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:33:03,219 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:03,964 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:05,007 - INFO - New accuracy (train) post training: 100.00% | (val) 90.96%
+
+2026-01-26 01:33:05,373 - INFO - batch 11/72 done, last improvement 7 batches ago
+2026-01-26 01:33:05,373 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.96%
+2026-01-26 01:33:05,374 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:06,178 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:07,264 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:33:07,630 - INFO - batch 12/72 done, last improvement 8 batches ago
+2026-01-26 01:33:07,630 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:33:07,631 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:08,360 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:09,410 - INFO - New accuracy (train) post training: 100.00% | (val) 92.23%
+
+2026-01-26 01:33:09,811 - INFO - batch 13/72 done, last improvement 9 batches ago
+2026-01-26 01:33:09,811 - INFO - New accuracy prior training in (train): 100.00% | (val) 92.23%
+2026-01-26 01:33:09,812 - INFO - Found new best weights!
+2026-01-26 01:33:09,888 - INFO - new best acc (val): 92.23% | (test): 90.38%
+2026-01-26 01:33:09,889 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:10,633 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:11,680 - INFO - New accuracy (train) post training: 100.00% | (val) 91.10%
+
+2026-01-26 01:33:12,031 - INFO - batch 14/72 done, last improvement 1 batches ago
+2026-01-26 01:33:12,031 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.10%
+2026-01-26 01:33:12,032 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:12,805 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:13,919 - INFO - New accuracy (train) post training: 100.00% | (val) 91.10%
+
+2026-01-26 01:33:14,348 - INFO - batch 15/72 done, last improvement 2 batches ago
+2026-01-26 01:33:14,348 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.10%
+2026-01-26 01:33:14,349 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:15,098 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:16,145 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:33:16,515 - INFO - batch 16/72 done, last improvement 3 batches ago
+2026-01-26 01:33:16,516 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:33:16,517 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:17,277 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:18,370 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:33:18,752 - INFO - batch 17/72 done, last improvement 4 batches ago
+2026-01-26 01:33:18,752 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:33:18,753 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:19,490 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:20,622 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:33:21,009 - INFO - batch 18/72 done, last improvement 5 batches ago
+2026-01-26 01:33:21,009 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:33:21,009 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:21,817 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:22,872 - INFO - New accuracy (train) post training: 100.00% | (val) 91.81%
+
+2026-01-26 01:33:23,254 - INFO - batch 19/72 done, last improvement 6 batches ago
+2026-01-26 01:33:23,254 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.81%
+2026-01-26 01:33:23,255 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:24,008 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:25,015 - INFO - New accuracy (train) post training: 100.00% | (val) 91.81%
+
+2026-01-26 01:33:25,407 - INFO - batch 20/72 done, last improvement 7 batches ago
+2026-01-26 01:33:25,408 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.81%
+2026-01-26 01:33:25,408 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:26,188 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:27,258 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:33:27,611 - INFO - batch 21/72 done, last improvement 8 batches ago
+2026-01-26 01:33:27,611 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:33:27,612 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:28,408 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:29,532 - INFO - New accuracy (train) post training: 100.00% | (val) 91.38%
+
+2026-01-26 01:33:29,924 - INFO - batch 22/72 done, last improvement 9 batches ago
+2026-01-26 01:33:29,924 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.38%
+2026-01-26 01:33:29,926 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:30,708 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:31,787 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:33:32,187 - INFO - batch 23/72 done, last improvement 10 batches ago
+2026-01-26 01:33:32,187 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:33:32,187 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:32,961 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:34,038 - INFO - New accuracy (train) post training: 100.00% | (val) 90.68%
+
+2026-01-26 01:33:34,439 - INFO - batch 24/72 done, last improvement 11 batches ago
+2026-01-26 01:33:34,439 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.68%
+2026-01-26 01:33:34,440 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:35,209 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:36,425 - INFO - New accuracy (train) post training: 100.00% | (val) 91.38%
+
+2026-01-26 01:33:36,812 - INFO - batch 25/72 done, last improvement 12 batches ago
+2026-01-26 01:33:36,812 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.38%
+2026-01-26 01:33:36,813 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:37,589 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:38,661 - INFO - New accuracy (train) post training: 100.00% | (val) 92.37%
+
+2026-01-26 01:33:39,059 - INFO - batch 26/72 done, last improvement 13 batches ago
+2026-01-26 01:33:39,060 - INFO - New accuracy prior training in (train): 100.00% | (val) 92.37%
+2026-01-26 01:33:39,061 - INFO - Found new best weights!
+2026-01-26 01:33:39,138 - INFO - new best acc (val): 92.37% | (test): 90.38%
+2026-01-26 01:33:39,139 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:39,919 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:41,002 - INFO - New accuracy (train) post training: 100.00% | (val) 92.51%
+
+2026-01-26 01:33:41,344 - INFO - batch 27/72 done, last improvement 1 batches ago
+2026-01-26 01:33:41,344 - INFO - New accuracy prior training in (train): 100.00% | (val) 92.51%
+2026-01-26 01:33:41,345 - INFO - Found new best weights!
+2026-01-26 01:33:41,423 - INFO - new best acc (val): 92.51% | (test): 90.52%
+2026-01-26 01:33:41,424 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:42,190 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:43,270 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:33:43,676 - INFO - batch 28/72 done, last improvement 1 batches ago
+2026-01-26 01:33:43,676 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:33:43,676 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:44,462 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:45,542 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:33:45,881 - INFO - batch 29/72 done, last improvement 2 batches ago
+2026-01-26 01:33:45,881 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:33:45,882 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:46,699 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:47,783 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:33:48,176 - INFO - batch 30/72 done, last improvement 3 batches ago
+2026-01-26 01:33:48,177 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:33:48,177 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:49,009 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:50,108 - INFO - New accuracy (train) post training: 100.00% | (val) 91.24%
+
+2026-01-26 01:33:50,500 - INFO - batch 31/72 done, last improvement 4 batches ago
+2026-01-26 01:33:50,500 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:33:50,501 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:51,291 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:52,402 - INFO - New accuracy (train) post training: 100.00% | (val) 92.09%
+
+2026-01-26 01:33:52,780 - INFO - batch 32/72 done, last improvement 5 batches ago
+2026-01-26 01:33:52,781 - INFO - New accuracy prior training in (train): 100.00% | (val) 92.09%
+2026-01-26 01:33:52,781 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:53,561 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:54,649 - INFO - New accuracy (train) post training: 100.00% | (val) 92.37%
+
+2026-01-26 01:33:55,027 - INFO - batch 33/72 done, last improvement 6 batches ago
+2026-01-26 01:33:55,027 - INFO - New accuracy prior training in (train): 100.00% | (val) 92.37%
+2026-01-26 01:33:55,028 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:55,791 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:56,849 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:33:57,189 - INFO - batch 34/72 done, last improvement 7 batches ago
+2026-01-26 01:33:57,189 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:33:57,190 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:33:57,939 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:33:58,978 - INFO - New accuracy (train) post training: 100.00% | (val) 91.10%
+
+2026-01-26 01:33:59,335 - INFO - batch 35/72 done, last improvement 8 batches ago
+2026-01-26 01:33:59,335 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.10%
+2026-01-26 01:33:59,336 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:00,144 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:01,234 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:34:01,615 - INFO - batch 36/72 done, last improvement 9 batches ago
+2026-01-26 01:34:01,615 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:34:01,616 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:02,392 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:03,479 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:34:03,818 - INFO - batch 37/72 done, last improvement 10 batches ago
+2026-01-26 01:34:03,818 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:34:03,819 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:04,569 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:05,655 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:34:06,042 - INFO - batch 38/72 done, last improvement 11 batches ago
+2026-01-26 01:34:06,043 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:34:06,044 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:06,804 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:07,887 - INFO - New accuracy (train) post training: 100.00% | (val) 91.38%
+
+2026-01-26 01:34:08,232 - INFO - batch 39/72 done, last improvement 12 batches ago
+2026-01-26 01:34:08,233 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.38%
+2026-01-26 01:34:08,233 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:08,986 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:10,074 - INFO - New accuracy (train) post training: 100.00% | (val) 91.95%
+
+2026-01-26 01:34:10,472 - INFO - batch 40/72 done, last improvement 13 batches ago
+2026-01-26 01:34:10,472 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.95%
+2026-01-26 01:34:10,473 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:11,242 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:12,341 - INFO - New accuracy (train) post training: 100.00% | (val) 91.81%
+
+2026-01-26 01:34:12,732 - INFO - batch 41/72 done, last improvement 14 batches ago
+2026-01-26 01:34:12,732 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.81%
+2026-01-26 01:34:12,733 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:13,504 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:14,586 - INFO - New accuracy (train) post training: 100.00% | (val) 91.10%
+
+2026-01-26 01:34:14,950 - INFO - batch 42/72 done, last improvement 15 batches ago
+2026-01-26 01:34:14,950 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.10%
+2026-01-26 01:34:14,950 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:15,693 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:16,802 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:17,167 - INFO - batch 43/72 done, last improvement 16 batches ago
+2026-01-26 01:34:17,168 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:17,168 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:17,903 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:18,991 - INFO - New accuracy (train) post training: 100.00% | (val) 91.24%
+
+2026-01-26 01:34:19,362 - INFO - batch 44/72 done, last improvement 17 batches ago
+2026-01-26 01:34:19,363 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:34:19,363 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:20,127 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:21,203 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:34:21,589 - INFO - batch 45/72 done, last improvement 18 batches ago
+2026-01-26 01:34:21,590 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:34:21,590 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:22,352 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:23,422 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:23,767 - INFO - batch 46/72 done, last improvement 19 batches ago
+2026-01-26 01:34:23,767 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:23,768 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:24,602 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:25,654 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:26,033 - INFO - batch 47/72 done, last improvement 20 batches ago
+2026-01-26 01:34:26,033 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:26,033 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:26,816 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:27,876 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:28,242 - INFO - batch 48/72 done, last improvement 21 batches ago
+2026-01-26 01:34:28,243 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:28,243 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:28,997 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:30,064 - INFO - New accuracy (train) post training: 100.00% | (val) 90.82%
+
+2026-01-26 01:34:30,445 - INFO - batch 49/72 done, last improvement 22 batches ago
+2026-01-26 01:34:30,446 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.82%
+2026-01-26 01:34:30,447 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:31,195 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:32,235 - INFO - New accuracy (train) post training: 100.00% | (val) 91.24%
+
+2026-01-26 01:34:32,620 - INFO - batch 50/72 done, last improvement 23 batches ago
+2026-01-26 01:34:32,620 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:34:32,621 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:33,386 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:34,437 - INFO - New accuracy (train) post training: 100.00% | (val) 90.96%
+
+2026-01-26 01:34:34,818 - INFO - batch 51/72 done, last improvement 24 batches ago
+2026-01-26 01:34:34,819 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.96%
+2026-01-26 01:34:34,819 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:35,569 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:36,631 - INFO - New accuracy (train) post training: 100.00% | (val) 91.10%
+
+2026-01-26 01:34:37,008 - INFO - batch 52/72 done, last improvement 25 batches ago
+2026-01-26 01:34:37,008 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.10%
+2026-01-26 01:34:37,009 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:37,767 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:38,822 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:39,199 - INFO - batch 53/72 done, last improvement 26 batches ago
+2026-01-26 01:34:39,200 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:39,201 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:39,972 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:41,039 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:41,419 - INFO - batch 54/72 done, last improvement 27 batches ago
+2026-01-26 01:34:41,419 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:41,420 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:42,183 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:43,221 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:34:43,569 - INFO - batch 55/72 done, last improvement 28 batches ago
+2026-01-26 01:34:43,569 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:34:43,569 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:44,315 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:45,339 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:45,682 - INFO - batch 56/72 done, last improvement 29 batches ago
+2026-01-26 01:34:45,683 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:45,683 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:46,434 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:47,440 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:34:47,789 - INFO - batch 57/72 done, last improvement 30 batches ago
+2026-01-26 01:34:47,789 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:34:47,790 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:48,530 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:49,583 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:49,944 - INFO - batch 58/72 done, last improvement 31 batches ago
+2026-01-26 01:34:49,944 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:49,944 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:50,711 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:51,748 - INFO - New accuracy (train) post training: 100.00% | (val) 91.67%
+
+2026-01-26 01:34:52,100 - INFO - batch 59/72 done, last improvement 32 batches ago
+2026-01-26 01:34:52,100 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.67%
+2026-01-26 01:34:52,101 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:52,835 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:53,883 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:54,267 - INFO - batch 60/72 done, last improvement 33 batches ago
+2026-01-26 01:34:54,267 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:54,268 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:55,017 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:56,083 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:56,453 - INFO - batch 61/72 done, last improvement 34 batches ago
+2026-01-26 01:34:56,454 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:56,454 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:57,213 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:34:58,264 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:34:58,640 - INFO - batch 62/72 done, last improvement 35 batches ago
+2026-01-26 01:34:58,641 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:34:58,641 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:34:59,406 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:00,453 - INFO - New accuracy (train) post training: 100.00% | (val) 91.53%
+
+2026-01-26 01:35:00,797 - INFO - batch 63/72 done, last improvement 36 batches ago
+2026-01-26 01:35:00,797 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.53%
+2026-01-26 01:35:00,798 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:01,547 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:02,575 - INFO - New accuracy (train) post training: 100.00% | (val) 91.38%
+
+2026-01-26 01:35:02,951 - INFO - batch 64/72 done, last improvement 37 batches ago
+2026-01-26 01:35:02,952 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.38%
+2026-01-26 01:35:02,952 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:03,693 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:04,730 - INFO - New accuracy (train) post training: 100.00% | (val) 91.10%
+
+2026-01-26 01:35:05,102 - INFO - batch 65/72 done, last improvement 38 batches ago
+2026-01-26 01:35:05,102 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.10%
+2026-01-26 01:35:05,103 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:05,854 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:06,912 - INFO - New accuracy (train) post training: 100.00% | (val) 91.24%
+
+2026-01-26 01:35:07,302 - INFO - batch 66/72 done, last improvement 39 batches ago
+2026-01-26 01:35:07,303 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:35:07,303 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:08,059 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:09,124 - INFO - New accuracy (train) post training: 100.00% | (val) 91.38%
+
+2026-01-26 01:35:09,508 - INFO - batch 67/72 done, last improvement 40 batches ago
+2026-01-26 01:35:09,508 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.38%
+2026-01-26 01:35:09,509 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:10,268 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:11,313 - INFO - New accuracy (train) post training: 100.00% | (val) 91.24%
+
+2026-01-26 01:35:11,698 - INFO - batch 68/72 done, last improvement 41 batches ago
+2026-01-26 01:35:11,699 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.24%
+2026-01-26 01:35:11,699 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:12,460 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:13,495 - INFO - New accuracy (train) post training: 100.00% | (val) 90.82%
+
+2026-01-26 01:35:13,848 - INFO - batch 69/72 done, last improvement 42 batches ago
+2026-01-26 01:35:13,848 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.82%
+2026-01-26 01:35:13,849 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:14,594 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:15,643 - INFO - New accuracy (train) post training: 100.00% | (val) 91.38%
+
+2026-01-26 01:35:16,029 - INFO - batch 70/72 done, last improvement 43 batches ago
+2026-01-26 01:35:16,029 - INFO - New accuracy prior training in (train): 100.00% | (val) 91.38%
+2026-01-26 01:35:16,030 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:16,778 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:17,835 - INFO - New accuracy (train) post training: 100.00% | (val) 90.96%
+
+2026-01-26 01:35:18,177 - INFO - batch 71/72 done, last improvement 44 batches ago
+2026-01-26 01:35:18,177 - INFO - New accuracy prior training in (train): 100.00% | (val) 90.96%
+2026-01-26 01:35:18,178 - INFO - Process... Retraining model 50.00%
+2026-01-26 01:35:18,913 - INFO - Process... Retraining model 100.00%
+2026-01-26 01:35:19,948 - INFO - New accuracy (train) post training: 100.00% | (val) 90.82%
+
+2026-01-26 01:35:19,949 - INFO - Total execution time: 159.49078154563904
+2026-01-26 01:35:19,990 - INFO - new best acc (val): 90.82%
+
+2026-01-26 01:35:19,990 - INFO - test accuracy as follows:
+2026-01-26 01:35:20,112 - INFO - Prediction accuracy: 91.08%

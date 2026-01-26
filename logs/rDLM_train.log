@@ -1,0 +1,525 @@
+2026-01-26 01:32:01,550 - INFO - No training data loaded.
+2026-01-26 01:32:01,556 - INFO - 验证数据集大小: 708
+2026-01-26 01:32:01,557 - INFO - 测试数据集大小: 1424
+2026-01-26 01:32:01,558 - INFO - ---Training APIN rDLM---
+2026-01-26 01:32:01,578 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:01,579 - INFO - No validation data loaded.
+2026-01-26 01:32:01,579 - INFO - No test data loaded.
+2026-01-26 01:32:01,580 - INFO - ---Training rDLM #0---
+2026-01-26 01:32:03,777 - INFO - Epoch[1/5], CE Loss: 0.4892
+2026-01-26 01:32:03,833 - INFO - train: 463/712 correct (65.03%)
+2026-01-26 01:32:03,834 - INFO - validation: 599/708 correct (84.60%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:04,002 - INFO - Epoch[2/5], CE Loss: 0.3028
+2026-01-26 01:32:04,045 - INFO - train: 656/712 correct (92.13%)
+2026-01-26 01:32:04,045 - INFO - validation: 627/708 correct (88.56%) | prev max 84.60% @ 0 epoch
+
+2026-01-26 01:32:04,204 - INFO - Epoch[3/5], CE Loss: 0.2000
+2026-01-26 01:32:04,248 - INFO - train: 695/712 correct (97.61%)
+2026-01-26 01:32:04,248 - INFO - validation: 627/708 correct (88.56%) | prev max 88.56% @ 1 epoch
+
+2026-01-26 01:32:04,389 - INFO - Epoch[4/5], CE Loss: 0.1042
+2026-01-26 01:32:04,432 - INFO - train: 700/712 correct (98.31%)
+2026-01-26 01:32:04,432 - INFO - validation: 636/708 correct (89.83%) | prev max 88.56% @ 1 epoch
+
+2026-01-26 01:32:04,592 - INFO - Epoch[5/5], CE Loss: 0.1092
+2026-01-26 01:32:04,636 - INFO - train: 708/712 correct (99.44%)
+2026-01-26 01:32:04,636 - INFO - validation: 636/708 correct (89.83%) | prev max 89.83% @ 3 epoch
+
+2026-01-26 01:32:04,654 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:04,654 - INFO - No validation data loaded.
+2026-01-26 01:32:04,655 - INFO - No test data loaded.
+2026-01-26 01:32:04,655 - INFO - ---Training rDLM #1---
+2026-01-26 01:32:04,809 - INFO - Epoch[1/5], CE Loss: 0.5068
+2026-01-26 01:32:04,852 - INFO - train: 484/712 correct (67.98%)
+2026-01-26 01:32:04,853 - INFO - validation: 603/708 correct (85.17%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:05,005 - INFO - Epoch[2/5], CE Loss: 0.2844
+2026-01-26 01:32:05,046 - INFO - train: 642/712 correct (90.17%)
+2026-01-26 01:32:05,047 - INFO - validation: 619/708 correct (87.43%) | prev max 85.17% @ 0 epoch
+
+2026-01-26 01:32:05,197 - INFO - Epoch[3/5], CE Loss: 0.2081
+2026-01-26 01:32:05,239 - INFO - train: 689/712 correct (96.77%)
+2026-01-26 01:32:05,239 - INFO - validation: 629/708 correct (88.84%) | prev max 87.43% @ 1 epoch
+
+2026-01-26 01:32:05,393 - INFO - Epoch[4/5], CE Loss: 0.1246
+2026-01-26 01:32:05,436 - INFO - train: 699/712 correct (98.17%)
+2026-01-26 01:32:05,436 - INFO - validation: 630/708 correct (88.98%) | prev max 88.84% @ 2 epoch
+
+2026-01-26 01:32:05,589 - INFO - Epoch[5/5], CE Loss: 0.1574
+2026-01-26 01:32:05,632 - INFO - train: 700/712 correct (98.31%)
+2026-01-26 01:32:05,632 - INFO - validation: 629/708 correct (88.84%) | prev max 88.98% @ 3 epoch
+
+2026-01-26 01:32:05,649 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:05,650 - INFO - No validation data loaded.
+2026-01-26 01:32:05,650 - INFO - No test data loaded.
+2026-01-26 01:32:05,651 - INFO - ---Training rDLM #2---
+2026-01-26 01:32:05,805 - INFO - Epoch[1/5], CE Loss: 0.3835
+2026-01-26 01:32:05,848 - INFO - train: 504/712 correct (70.79%)
+2026-01-26 01:32:05,849 - INFO - validation: 581/708 correct (82.06%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:05,999 - INFO - Epoch[2/5], CE Loss: 0.2950
+2026-01-26 01:32:06,040 - INFO - train: 651/712 correct (91.43%)
+2026-01-26 01:32:06,041 - INFO - validation: 629/708 correct (88.84%) | prev max 82.06% @ 0 epoch
+
+2026-01-26 01:32:06,191 - INFO - Epoch[3/5], CE Loss: 0.1328
+2026-01-26 01:32:06,234 - INFO - train: 681/712 correct (95.65%)
+2026-01-26 01:32:06,235 - INFO - validation: 631/708 correct (89.12%) | prev max 88.84% @ 1 epoch
+
+2026-01-26 01:32:06,387 - INFO - Epoch[4/5], CE Loss: 0.1604
+2026-01-26 01:32:06,429 - INFO - train: 702/712 correct (98.60%)
+2026-01-26 01:32:06,429 - INFO - validation: 631/708 correct (89.12%) | prev max 89.12% @ 2 epoch
+
+2026-01-26 01:32:06,572 - INFO - Epoch[5/5], CE Loss: 0.1136
+2026-01-26 01:32:06,614 - INFO - train: 705/712 correct (99.02%)
+2026-01-26 01:32:06,614 - INFO - validation: 630/708 correct (88.98%) | prev max 89.12% @ 2 epoch
+
+2026-01-26 01:32:06,632 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:06,632 - INFO - No validation data loaded.
+2026-01-26 01:32:06,633 - INFO - No test data loaded.
+2026-01-26 01:32:06,633 - INFO - ---Training rDLM #3---
+2026-01-26 01:32:06,790 - INFO - Epoch[1/5], CE Loss: 0.4313
+2026-01-26 01:32:06,832 - INFO - train: 446/712 correct (62.64%)
+2026-01-26 01:32:06,832 - INFO - validation: 615/708 correct (86.86%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:06,982 - INFO - Epoch[2/5], CE Loss: 0.3471
+2026-01-26 01:32:07,025 - INFO - train: 622/712 correct (87.36%)
+2026-01-26 01:32:07,026 - INFO - validation: 619/708 correct (87.43%) | prev max 86.86% @ 0 epoch
+
+2026-01-26 01:32:07,179 - INFO - Epoch[3/5], CE Loss: 0.2307
+2026-01-26 01:32:07,221 - INFO - train: 690/712 correct (96.91%)
+2026-01-26 01:32:07,221 - INFO - validation: 628/708 correct (88.70%) | prev max 87.43% @ 1 epoch
+
+2026-01-26 01:32:07,373 - INFO - Epoch[4/5], CE Loss: 0.1535
+2026-01-26 01:32:07,415 - INFO - train: 693/712 correct (97.33%)
+2026-01-26 01:32:07,415 - INFO - validation: 624/708 correct (88.14%) | prev max 88.70% @ 2 epoch
+
+2026-01-26 01:32:07,557 - INFO - Epoch[5/5], CE Loss: 0.1377
+2026-01-26 01:32:07,599 - INFO - train: 701/712 correct (98.46%)
+2026-01-26 01:32:07,599 - INFO - validation: 627/708 correct (88.56%) | prev max 88.70% @ 2 epoch
+
+2026-01-26 01:32:07,615 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:07,615 - INFO - No validation data loaded.
+2026-01-26 01:32:07,615 - INFO - No test data loaded.
+2026-01-26 01:32:07,616 - INFO - ---Training rDLM #4---
+2026-01-26 01:32:07,777 - INFO - Epoch[1/5], CE Loss: 0.4085
+2026-01-26 01:32:07,819 - INFO - train: 486/712 correct (68.26%)
+2026-01-26 01:32:07,819 - INFO - validation: 617/708 correct (87.15%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:07,971 - INFO - Epoch[2/5], CE Loss: 0.3193
+2026-01-26 01:32:08,011 - INFO - train: 656/712 correct (92.13%)
+2026-01-26 01:32:08,011 - INFO - validation: 619/708 correct (87.43%) | prev max 87.15% @ 0 epoch
+
+2026-01-26 01:32:08,166 - INFO - Epoch[3/5], CE Loss: 0.2249
+2026-01-26 01:32:08,208 - INFO - train: 685/712 correct (96.21%)
+2026-01-26 01:32:08,209 - INFO - validation: 622/708 correct (87.85%) | prev max 87.43% @ 1 epoch
+
+2026-01-26 01:32:08,363 - INFO - Epoch[4/5], CE Loss: 0.1322
+2026-01-26 01:32:08,406 - INFO - train: 700/712 correct (98.31%)
+2026-01-26 01:32:08,406 - INFO - validation: 626/708 correct (88.42%) | prev max 87.85% @ 2 epoch
+
+2026-01-26 01:32:08,565 - INFO - Epoch[5/5], CE Loss: 0.0993
+2026-01-26 01:32:08,607 - INFO - train: 706/712 correct (99.16%)
+2026-01-26 01:32:08,608 - INFO - validation: 628/708 correct (88.70%) | prev max 88.42% @ 3 epoch
+
+2026-01-26 01:32:08,631 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:08,632 - INFO - No validation data loaded.
+2026-01-26 01:32:08,632 - INFO - No test data loaded.
+2026-01-26 01:32:08,632 - INFO - ---Training rDLM #5---
+2026-01-26 01:32:08,783 - INFO - Epoch[1/5], CE Loss: 0.5067
+2026-01-26 01:32:08,826 - INFO - train: 467/712 correct (65.59%)
+2026-01-26 01:32:08,827 - INFO - validation: 612/708 correct (86.44%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:08,979 - INFO - Epoch[2/5], CE Loss: 0.3006
+2026-01-26 01:32:09,024 - INFO - train: 666/712 correct (93.54%)
+2026-01-26 01:32:09,024 - INFO - validation: 628/708 correct (88.70%) | prev max 86.44% @ 0 epoch
+
+2026-01-26 01:32:09,173 - INFO - Epoch[3/5], CE Loss: 0.2298
+2026-01-26 01:32:09,215 - INFO - train: 683/712 correct (95.93%)
+2026-01-26 01:32:09,216 - INFO - validation: 623/708 correct (87.99%) | prev max 88.70% @ 1 epoch
+
+2026-01-26 01:32:09,359 - INFO - Epoch[4/5], CE Loss: 0.1493
+2026-01-26 01:32:09,404 - INFO - train: 696/712 correct (97.75%)
+2026-01-26 01:32:09,404 - INFO - validation: 634/708 correct (89.55%) | prev max 88.70% @ 1 epoch
+
+2026-01-26 01:32:09,563 - INFO - Epoch[5/5], CE Loss: 0.1304
+2026-01-26 01:32:09,606 - INFO - train: 701/712 correct (98.46%)
+2026-01-26 01:32:09,607 - INFO - validation: 634/708 correct (89.55%) | prev max 89.55% @ 3 epoch
+
+2026-01-26 01:32:09,624 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:09,625 - INFO - No validation data loaded.
+2026-01-26 01:32:09,625 - INFO - No test data loaded.
+2026-01-26 01:32:09,626 - INFO - ---Training rDLM #6---
+2026-01-26 01:32:09,787 - INFO - Epoch[1/5], CE Loss: 0.4974
+2026-01-26 01:32:09,829 - INFO - train: 472/712 correct (66.29%)
+2026-01-26 01:32:09,829 - INFO - validation: 598/708 correct (84.46%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:09,979 - INFO - Epoch[2/5], CE Loss: 0.3420
+2026-01-26 01:32:10,022 - INFO - train: 666/712 correct (93.54%)
+2026-01-26 01:32:10,023 - INFO - validation: 635/708 correct (89.69%) | prev max 84.46% @ 0 epoch
+
+2026-01-26 01:32:10,178 - INFO - Epoch[3/5], CE Loss: 0.2013
+2026-01-26 01:32:10,221 - INFO - train: 684/712 correct (96.07%)
+2026-01-26 01:32:10,221 - INFO - validation: 638/708 correct (90.11%) | prev max 89.69% @ 1 epoch
+
+2026-01-26 01:32:10,376 - INFO - Epoch[4/5], CE Loss: 0.1370
+2026-01-26 01:32:10,420 - INFO - train: 698/712 correct (98.03%)
+2026-01-26 01:32:10,420 - INFO - validation: 641/708 correct (90.54%) | prev max 90.11% @ 2 epoch
+
+2026-01-26 01:32:10,579 - INFO - Epoch[5/5], CE Loss: 0.0996
+2026-01-26 01:32:10,623 - INFO - train: 706/712 correct (99.16%)
+2026-01-26 01:32:10,624 - INFO - validation: 645/708 correct (91.10%) | prev max 90.54% @ 3 epoch
+
+2026-01-26 01:32:10,653 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:10,654 - INFO - No validation data loaded.
+2026-01-26 01:32:10,654 - INFO - No test data loaded.
+2026-01-26 01:32:10,655 - INFO - ---Training rDLM #7---
+2026-01-26 01:32:10,813 - INFO - Epoch[1/5], CE Loss: 0.4803
+2026-01-26 01:32:10,857 - INFO - train: 493/712 correct (69.24%)
+2026-01-26 01:32:10,858 - INFO - validation: 593/708 correct (83.76%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:11,009 - INFO - Epoch[2/5], CE Loss: 0.2989
+2026-01-26 01:32:11,051 - INFO - train: 655/712 correct (91.99%)
+2026-01-26 01:32:11,052 - INFO - validation: 619/708 correct (87.43%) | prev max 83.76% @ 0 epoch
+
+2026-01-26 01:32:11,208 - INFO - Epoch[3/5], CE Loss: 0.2087
+2026-01-26 01:32:11,251 - INFO - train: 689/712 correct (96.77%)
+2026-01-26 01:32:11,251 - INFO - validation: 626/708 correct (88.42%) | prev max 87.43% @ 1 epoch
+
+2026-01-26 01:32:11,408 - INFO - Epoch[4/5], CE Loss: 0.1419
+2026-01-26 01:32:11,451 - INFO - train: 695/712 correct (97.61%)
+2026-01-26 01:32:11,451 - INFO - validation: 623/708 correct (87.99%) | prev max 88.42% @ 2 epoch
+
+2026-01-26 01:32:11,596 - INFO - Epoch[5/5], CE Loss: 0.1131
+2026-01-26 01:32:11,639 - INFO - train: 701/712 correct (98.46%)
+2026-01-26 01:32:11,639 - INFO - validation: 628/708 correct (88.70%) | prev max 88.42% @ 2 epoch
+
+2026-01-26 01:32:11,669 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:11,669 - INFO - No validation data loaded.
+2026-01-26 01:32:11,670 - INFO - No test data loaded.
+2026-01-26 01:32:11,670 - INFO - ---Training rDLM #8---
+2026-01-26 01:32:11,827 - INFO - Epoch[1/5], CE Loss: 0.5177
+2026-01-26 01:32:11,870 - INFO - train: 483/712 correct (67.84%)
+2026-01-26 01:32:11,871 - INFO - validation: 633/708 correct (89.41%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:12,022 - INFO - Epoch[2/5], CE Loss: 0.2504
+2026-01-26 01:32:12,063 - INFO - train: 666/712 correct (93.54%)
+2026-01-26 01:32:12,064 - INFO - validation: 637/708 correct (89.97%) | prev max 89.41% @ 0 epoch
+
+2026-01-26 01:32:12,218 - INFO - Epoch[3/5], CE Loss: 0.1842
+2026-01-26 01:32:12,260 - INFO - train: 692/712 correct (97.19%)
+2026-01-26 01:32:12,261 - INFO - validation: 644/708 correct (90.96%) | prev max 89.97% @ 1 epoch
+
+2026-01-26 01:32:12,415 - INFO - Epoch[4/5], CE Loss: 0.1157
+2026-01-26 01:32:12,458 - INFO - train: 701/712 correct (98.46%)
+2026-01-26 01:32:12,459 - INFO - validation: 639/708 correct (90.25%) | prev max 90.96% @ 2 epoch
+
+2026-01-26 01:32:12,600 - INFO - Epoch[5/5], CE Loss: 0.1198
+2026-01-26 01:32:12,643 - INFO - train: 708/712 correct (99.44%)
+2026-01-26 01:32:12,644 - INFO - validation: 642/708 correct (90.68%) | prev max 90.96% @ 2 epoch
+
+2026-01-26 01:32:12,661 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:12,662 - INFO - No validation data loaded.
+2026-01-26 01:32:12,662 - INFO - No test data loaded.
+2026-01-26 01:32:12,663 - INFO - ---Training rDLM #9---
+2026-01-26 01:32:12,819 - INFO - Epoch[1/5], CE Loss: 0.5082
+2026-01-26 01:32:12,862 - INFO - train: 486/712 correct (68.26%)
+2026-01-26 01:32:12,862 - INFO - validation: 612/708 correct (86.44%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:13,013 - INFO - Epoch[2/5], CE Loss: 0.2420
+2026-01-26 01:32:13,055 - INFO - train: 671/712 correct (94.24%)
+2026-01-26 01:32:13,055 - INFO - validation: 608/708 correct (85.88%) | prev max 86.44% @ 0 epoch
+
+2026-01-26 01:32:13,195 - INFO - Epoch[3/5], CE Loss: 0.1694
+2026-01-26 01:32:13,237 - INFO - train: 687/712 correct (96.49%)
+2026-01-26 01:32:13,238 - INFO - validation: 623/708 correct (87.99%) | prev max 86.44% @ 0 epoch
+
+2026-01-26 01:32:13,389 - INFO - Epoch[4/5], CE Loss: 0.1417
+2026-01-26 01:32:13,433 - INFO - train: 703/712 correct (98.74%)
+2026-01-26 01:32:13,433 - INFO - validation: 623/708 correct (87.99%) | prev max 87.99% @ 2 epoch
+
+2026-01-26 01:32:13,576 - INFO - Epoch[5/5], CE Loss: 0.1016
+2026-01-26 01:32:13,618 - INFO - train: 706/712 correct (99.16%)
+2026-01-26 01:32:13,618 - INFO - validation: 628/708 correct (88.70%) | prev max 87.99% @ 2 epoch
+
+2026-01-26 01:32:13,648 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:13,648 - INFO - No validation data loaded.
+2026-01-26 01:32:13,649 - INFO - No test data loaded.
+2026-01-26 01:32:13,649 - INFO - ---Training rDLM #10---
+2026-01-26 01:32:13,802 - INFO - Epoch[1/5], CE Loss: 0.4534
+2026-01-26 01:32:13,844 - INFO - train: 473/712 correct (66.43%)
+2026-01-26 01:32:13,844 - INFO - validation: 614/708 correct (86.72%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:13,995 - INFO - Epoch[2/5], CE Loss: 0.2672
+2026-01-26 01:32:14,036 - INFO - train: 667/712 correct (93.68%)
+2026-01-26 01:32:14,036 - INFO - validation: 626/708 correct (88.42%) | prev max 86.72% @ 0 epoch
+
+2026-01-26 01:32:14,187 - INFO - Epoch[3/5], CE Loss: 0.2228
+2026-01-26 01:32:14,230 - INFO - train: 688/712 correct (96.63%)
+2026-01-26 01:32:14,230 - INFO - validation: 633/708 correct (89.41%) | prev max 88.42% @ 1 epoch
+
+2026-01-26 01:32:14,381 - INFO - Epoch[4/5], CE Loss: 0.1574
+2026-01-26 01:32:14,424 - INFO - train: 704/712 correct (98.88%)
+2026-01-26 01:32:14,425 - INFO - validation: 635/708 correct (89.69%) | prev max 89.41% @ 2 epoch
+
+2026-01-26 01:32:14,584 - INFO - Epoch[5/5], CE Loss: 0.1057
+2026-01-26 01:32:14,630 - INFO - train: 707/712 correct (99.30%)
+2026-01-26 01:32:14,630 - INFO - validation: 636/708 correct (89.83%) | prev max 89.69% @ 3 epoch
+
+2026-01-26 01:32:14,663 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:14,663 - INFO - No validation data loaded.
+2026-01-26 01:32:14,664 - INFO - No test data loaded.
+2026-01-26 01:32:14,664 - INFO - ---Training rDLM #11---
+2026-01-26 01:32:14,821 - INFO - Epoch[1/5], CE Loss: 0.4825
+2026-01-26 01:32:14,864 - INFO - train: 463/712 correct (65.03%)
+2026-01-26 01:32:14,864 - INFO - validation: 610/708 correct (86.16%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:15,015 - INFO - Epoch[2/5], CE Loss: 0.2662
+2026-01-26 01:32:15,057 - INFO - train: 642/712 correct (90.17%)
+2026-01-26 01:32:15,057 - INFO - validation: 612/708 correct (86.44%) | prev max 86.16% @ 0 epoch
+
+2026-01-26 01:32:15,210 - INFO - Epoch[3/5], CE Loss: 0.1860
+2026-01-26 01:32:15,253 - INFO - train: 680/712 correct (95.51%)
+2026-01-26 01:32:15,253 - INFO - validation: 627/708 correct (88.56%) | prev max 86.44% @ 1 epoch
+
+2026-01-26 01:32:15,410 - INFO - Epoch[4/5], CE Loss: 0.1641
+2026-01-26 01:32:15,454 - INFO - train: 697/712 correct (97.89%)
+2026-01-26 01:32:15,455 - INFO - validation: 634/708 correct (89.55%) | prev max 88.56% @ 2 epoch
+
+2026-01-26 01:32:15,613 - INFO - Epoch[5/5], CE Loss: 0.1325
+2026-01-26 01:32:15,659 - INFO - train: 705/712 correct (99.02%)
+2026-01-26 01:32:15,660 - INFO - validation: 635/708 correct (89.69%) | prev max 89.55% @ 3 epoch
+
+2026-01-26 01:32:15,689 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:15,690 - INFO - No validation data loaded.
+2026-01-26 01:32:15,690 - INFO - No test data loaded.
+2026-01-26 01:32:15,691 - INFO - ---Training rDLM #12---
+2026-01-26 01:32:15,846 - INFO - Epoch[1/5], CE Loss: 0.4881
+2026-01-26 01:32:15,887 - INFO - train: 449/712 correct (63.06%)
+2026-01-26 01:32:15,888 - INFO - validation: 602/708 correct (85.03%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:16,038 - INFO - Epoch[2/5], CE Loss: 0.3206
+2026-01-26 01:32:16,079 - INFO - train: 646/712 correct (90.73%)
+2026-01-26 01:32:16,079 - INFO - validation: 629/708 correct (88.84%) | prev max 85.03% @ 0 epoch
+
+2026-01-26 01:32:16,232 - INFO - Epoch[3/5], CE Loss: 0.1875
+2026-01-26 01:32:16,274 - INFO - train: 692/712 correct (97.19%)
+2026-01-26 01:32:16,275 - INFO - validation: 630/708 correct (88.98%) | prev max 88.84% @ 1 epoch
+
+2026-01-26 01:32:16,435 - INFO - Epoch[4/5], CE Loss: 0.1584
+2026-01-26 01:32:16,478 - INFO - train: 700/712 correct (98.31%)
+2026-01-26 01:32:16,478 - INFO - validation: 627/708 correct (88.56%) | prev max 88.98% @ 2 epoch
+
+2026-01-26 01:32:16,620 - INFO - Epoch[5/5], CE Loss: 0.1225
+2026-01-26 01:32:16,665 - INFO - train: 702/712 correct (98.60%)
+2026-01-26 01:32:16,665 - INFO - validation: 633/708 correct (89.41%) | prev max 88.98% @ 2 epoch
+
+2026-01-26 01:32:16,693 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:16,693 - INFO - No validation data loaded.
+2026-01-26 01:32:16,694 - INFO - No test data loaded.
+2026-01-26 01:32:16,694 - INFO - ---Training rDLM #13---
+2026-01-26 01:32:16,849 - INFO - Epoch[1/5], CE Loss: 0.4807
+2026-01-26 01:32:16,890 - INFO - train: 461/712 correct (64.75%)
+2026-01-26 01:32:16,890 - INFO - validation: 624/708 correct (88.14%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:17,040 - INFO - Epoch[2/5], CE Loss: 0.3102
+2026-01-26 01:32:17,081 - INFO - train: 657/712 correct (92.28%)
+2026-01-26 01:32:17,082 - INFO - validation: 602/708 correct (85.03%) | prev max 88.14% @ 0 epoch
+
+2026-01-26 01:32:17,222 - INFO - Epoch[3/5], CE Loss: 0.1571
+2026-01-26 01:32:17,264 - INFO - train: 691/712 correct (97.05%)
+2026-01-26 01:32:17,264 - INFO - validation: 639/708 correct (90.25%) | prev max 88.14% @ 0 epoch
+
+2026-01-26 01:32:17,422 - INFO - Epoch[4/5], CE Loss: 0.1505
+2026-01-26 01:32:17,464 - INFO - train: 700/712 correct (98.31%)
+2026-01-26 01:32:17,465 - INFO - validation: 641/708 correct (90.54%) | prev max 90.25% @ 2 epoch
+
+2026-01-26 01:32:17,622 - INFO - Epoch[5/5], CE Loss: 0.0999
+2026-01-26 01:32:17,665 - INFO - train: 703/712 correct (98.74%)
+2026-01-26 01:32:17,666 - INFO - validation: 632/708 correct (89.27%) | prev max 90.54% @ 3 epoch
+
+2026-01-26 01:32:17,682 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:17,683 - INFO - No validation data loaded.
+2026-01-26 01:32:17,683 - INFO - No test data loaded.
+2026-01-26 01:32:17,684 - INFO - ---Training rDLM #14---
+2026-01-26 01:32:17,840 - INFO - Epoch[1/5], CE Loss: 0.5850
+2026-01-26 01:32:17,882 - INFO - train: 505/712 correct (70.93%)
+2026-01-26 01:32:17,883 - INFO - validation: 559/708 correct (78.95%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:18,036 - INFO - Epoch[2/5], CE Loss: 0.2707
+2026-01-26 01:32:18,079 - INFO - train: 647/712 correct (90.87%)
+2026-01-26 01:32:18,080 - INFO - validation: 629/708 correct (88.84%) | prev max 78.95% @ 0 epoch
+
+2026-01-26 01:32:18,232 - INFO - Epoch[3/5], CE Loss: 0.1902
+2026-01-26 01:32:18,275 - INFO - train: 693/712 correct (97.33%)
+2026-01-26 01:32:18,276 - INFO - validation: 620/708 correct (87.57%) | prev max 88.84% @ 1 epoch
+
+2026-01-26 01:32:18,417 - INFO - Epoch[4/5], CE Loss: 0.1256
+2026-01-26 01:32:18,461 - INFO - train: 701/712 correct (98.46%)
+2026-01-26 01:32:18,461 - INFO - validation: 623/708 correct (87.99%) | prev max 88.84% @ 1 epoch
+
+2026-01-26 01:32:18,605 - INFO - Epoch[5/5], CE Loss: 0.1281
+2026-01-26 01:32:18,647 - INFO - train: 702/712 correct (98.60%)
+2026-01-26 01:32:18,647 - INFO - validation: 635/708 correct (89.69%) | prev max 88.84% @ 1 epoch
+
+2026-01-26 01:32:18,676 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:18,677 - INFO - No validation data loaded.
+2026-01-26 01:32:18,677 - INFO - No test data loaded.
+2026-01-26 01:32:18,678 - INFO - ---Training rDLM #15---
+2026-01-26 01:32:18,831 - INFO - Epoch[1/5], CE Loss: 0.4656
+2026-01-26 01:32:18,873 - INFO - train: 495/712 correct (69.52%)
+2026-01-26 01:32:18,874 - INFO - validation: 608/708 correct (85.88%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:19,025 - INFO - Epoch[2/5], CE Loss: 0.2385
+2026-01-26 01:32:19,067 - INFO - train: 654/712 correct (91.85%)
+2026-01-26 01:32:19,067 - INFO - validation: 624/708 correct (88.14%) | prev max 85.88% @ 0 epoch
+
+2026-01-26 01:32:19,218 - INFO - Epoch[3/5], CE Loss: 0.1724
+2026-01-26 01:32:19,260 - INFO - train: 693/712 correct (97.33%)
+2026-01-26 01:32:19,261 - INFO - validation: 622/708 correct (87.85%) | prev max 88.14% @ 1 epoch
+
+2026-01-26 01:32:19,404 - INFO - Epoch[4/5], CE Loss: 0.1578
+2026-01-26 01:32:19,446 - INFO - train: 708/712 correct (99.44%)
+2026-01-26 01:32:19,446 - INFO - validation: 616/708 correct (87.01%) | prev max 88.14% @ 1 epoch
+
+2026-01-26 01:32:19,590 - INFO - Epoch[5/5], CE Loss: 0.1136
+2026-01-26 01:32:19,634 - INFO - train: 708/712 correct (99.44%)
+2026-01-26 01:32:19,634 - INFO - validation: 626/708 correct (88.42%) | prev max 88.14% @ 1 epoch
+
+2026-01-26 01:32:19,664 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:19,665 - INFO - No validation data loaded.
+2026-01-26 01:32:19,665 - INFO - No test data loaded.
+2026-01-26 01:32:19,666 - INFO - ---Training rDLM #16---
+2026-01-26 01:32:19,821 - INFO - Epoch[1/5], CE Loss: 0.5282
+2026-01-26 01:32:19,864 - INFO - train: 461/712 correct (64.75%)
+2026-01-26 01:32:19,864 - INFO - validation: 624/708 correct (88.14%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:20,013 - INFO - Epoch[2/5], CE Loss: 0.3038
+2026-01-26 01:32:20,056 - INFO - train: 647/712 correct (90.87%)
+2026-01-26 01:32:20,056 - INFO - validation: 635/708 correct (89.69%) | prev max 88.14% @ 0 epoch
+
+2026-01-26 01:32:20,207 - INFO - Epoch[3/5], CE Loss: 0.2191
+2026-01-26 01:32:20,250 - INFO - train: 684/712 correct (96.07%)
+2026-01-26 01:32:20,250 - INFO - validation: 636/708 correct (89.83%) | prev max 89.69% @ 1 epoch
+
+2026-01-26 01:32:20,417 - INFO - Epoch[4/5], CE Loss: 0.1216
+2026-01-26 01:32:20,461 - INFO - train: 701/712 correct (98.46%)
+2026-01-26 01:32:20,462 - INFO - validation: 631/708 correct (89.12%) | prev max 89.83% @ 2 epoch
+
+2026-01-26 01:32:20,605 - INFO - Epoch[5/5], CE Loss: 0.1332
+2026-01-26 01:32:20,647 - INFO - train: 703/712 correct (98.74%)
+2026-01-26 01:32:20,648 - INFO - validation: 634/708 correct (89.55%) | prev max 89.83% @ 2 epoch
+
+2026-01-26 01:32:20,665 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:20,666 - INFO - No validation data loaded.
+2026-01-26 01:32:20,666 - INFO - No test data loaded.
+2026-01-26 01:32:20,667 - INFO - ---Training rDLM #17---
+2026-01-26 01:32:20,823 - INFO - Epoch[1/5], CE Loss: 0.4558
+2026-01-26 01:32:20,866 - INFO - train: 481/712 correct (67.56%)
+2026-01-26 01:32:20,866 - INFO - validation: 630/708 correct (88.98%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:21,017 - INFO - Epoch[2/5], CE Loss: 0.2642
+2026-01-26 01:32:21,060 - INFO - train: 658/712 correct (92.42%)
+2026-01-26 01:32:21,060 - INFO - validation: 643/708 correct (90.82%) | prev max 88.98% @ 0 epoch
+
+2026-01-26 01:32:21,216 - INFO - Epoch[3/5], CE Loss: 0.1959
+2026-01-26 01:32:21,259 - INFO - train: 685/712 correct (96.21%)
+2026-01-26 01:32:21,259 - INFO - validation: 632/708 correct (89.27%) | prev max 90.82% @ 1 epoch
+
+2026-01-26 01:32:21,402 - INFO - Epoch[4/5], CE Loss: 0.1371
+2026-01-26 01:32:21,446 - INFO - train: 702/712 correct (98.60%)
+2026-01-26 01:32:21,446 - INFO - validation: 640/708 correct (90.40%) | prev max 90.82% @ 1 epoch
+
+2026-01-26 01:32:21,589 - INFO - Epoch[5/5], CE Loss: 0.1521
+2026-01-26 01:32:21,632 - INFO - train: 706/712 correct (99.16%)
+2026-01-26 01:32:21,632 - INFO - validation: 637/708 correct (89.97%) | prev max 90.82% @ 1 epoch
+
+2026-01-26 01:32:21,649 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:21,649 - INFO - No validation data loaded.
+2026-01-26 01:32:21,649 - INFO - No test data loaded.
+2026-01-26 01:32:21,650 - INFO - ---Training rDLM #18---
+2026-01-26 01:32:21,804 - INFO - Epoch[1/5], CE Loss: 0.4651
+2026-01-26 01:32:21,848 - INFO - train: 471/712 correct (66.15%)
+2026-01-26 01:32:21,849 - INFO - validation: 612/708 correct (86.44%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:22,006 - INFO - Epoch[2/5], CE Loss: 0.2591
+2026-01-26 01:32:22,049 - INFO - train: 643/712 correct (90.31%)
+2026-01-26 01:32:22,049 - INFO - validation: 624/708 correct (88.14%) | prev max 86.44% @ 0 epoch
+
+2026-01-26 01:32:22,202 - INFO - Epoch[3/5], CE Loss: 0.1384
+2026-01-26 01:32:22,244 - INFO - train: 681/712 correct (95.65%)
+2026-01-26 01:32:22,245 - INFO - validation: 632/708 correct (89.27%) | prev max 88.14% @ 1 epoch
+
+2026-01-26 01:32:22,407 - INFO - Epoch[4/5], CE Loss: 0.1146
+2026-01-26 01:32:22,450 - INFO - train: 704/712 correct (98.88%)
+2026-01-26 01:32:22,451 - INFO - validation: 633/708 correct (89.41%) | prev max 89.27% @ 2 epoch
+
+2026-01-26 01:32:22,608 - INFO - Epoch[5/5], CE Loss: 0.1166
+2026-01-26 01:32:22,652 - INFO - train: 704/712 correct (98.88%)
+2026-01-26 01:32:22,653 - INFO - validation: 637/708 correct (89.97%) | prev max 89.41% @ 3 epoch
+
+2026-01-26 01:32:22,675 - INFO - 训练数据集大小: 712
+2026-01-26 01:32:22,676 - INFO - No validation data loaded.
+2026-01-26 01:32:22,676 - INFO - No test data loaded.
+2026-01-26 01:32:22,676 - INFO - ---Training rDLM #19---
+2026-01-26 01:32:22,838 - INFO - Epoch[1/5], CE Loss: 0.4558
+2026-01-26 01:32:22,883 - INFO - train: 476/712 correct (66.85%)
+2026-01-26 01:32:22,884 - INFO - validation: 597/708 correct (84.32%) | prev max 0.00% @ 0 epoch
+
+2026-01-26 01:32:23,037 - INFO - Epoch[2/5], CE Loss: 0.2908
+2026-01-26 01:32:23,081 - INFO - train: 674/712 correct (94.66%)
+2026-01-26 01:32:23,081 - INFO - validation: 607/708 correct (85.73%) | prev max 84.32% @ 0 epoch
+
+2026-01-26 01:32:23,231 - INFO - Epoch[3/5], CE Loss: 0.1597
+2026-01-26 01:32:23,272 - INFO - train: 693/712 correct (97.33%)
+2026-01-26 01:32:23,273 - INFO - validation: 630/708 correct (88.98%) | prev max 85.73% @ 1 epoch
+
+2026-01-26 01:32:23,425 - INFO - Epoch[4/5], CE Loss: 0.1562
+2026-01-26 01:32:23,470 - INFO - train: 703/712 correct (98.74%)
+2026-01-26 01:32:23,470 - INFO - validation: 628/708 correct (88.70%) | prev max 88.98% @ 2 epoch
+
+2026-01-26 01:32:23,612 - INFO - Epoch[5/5], CE Loss: 0.0880
+2026-01-26 01:32:23,658 - INFO - train: 704/712 correct (98.88%)
+2026-01-26 01:32:23,658 - INFO - validation: 622/708 correct (87.85%) | prev max 88.98% @ 2 epoch
+
+2026-01-26 01:32:23,660 - INFO - ---Testing APIN rDLM---
+2026-01-26 01:32:23,661 - INFO - ---Testing APIN rDLM #0---
+2026-01-26 01:32:23,807 - INFO - Prediction accuracy: 87.71%
+2026-01-26 01:32:23,807 - INFO - ---Testing APIN rDLM #1---
+2026-01-26 01:32:23,938 - INFO - Prediction accuracy: 88.13%
+2026-01-26 01:32:23,938 - INFO - ---Testing APIN rDLM #2---
+2026-01-26 01:32:24,062 - INFO - Prediction accuracy: 88.13%
+2026-01-26 01:32:24,063 - INFO - ---Testing APIN rDLM #3---
+2026-01-26 01:32:24,187 - INFO - Prediction accuracy: 87.85%
+2026-01-26 01:32:24,187 - INFO - ---Testing APIN rDLM #4---
+2026-01-26 01:32:24,307 - INFO - Prediction accuracy: 89.54%
+2026-01-26 01:32:24,308 - INFO - ---Testing APIN rDLM #5---
+2026-01-26 01:32:24,423 - INFO - Prediction accuracy: 86.73%
+2026-01-26 01:32:24,423 - INFO - ---Testing APIN rDLM #6---
+2026-01-26 01:32:24,540 - INFO - Prediction accuracy: 88.41%
+2026-01-26 01:32:24,541 - INFO - ---Testing APIN rDLM #7---
+2026-01-26 01:32:24,657 - INFO - Prediction accuracy: 89.26%
+2026-01-26 01:32:24,658 - INFO - ---Testing APIN rDLM #8---
+2026-01-26 01:32:24,778 - INFO - Prediction accuracy: 89.33%
+2026-01-26 01:32:24,779 - INFO - ---Testing APIN rDLM #9---
+2026-01-26 01:32:24,888 - INFO - Prediction accuracy: 88.34%
+2026-01-26 01:32:24,888 - INFO - ---Testing APIN rDLM #10---
+2026-01-26 01:32:25,015 - INFO - Prediction accuracy: 90.31%
+2026-01-26 01:32:25,015 - INFO - ---Testing APIN rDLM #11---
+2026-01-26 01:32:25,143 - INFO - Prediction accuracy: 88.62%
+2026-01-26 01:32:25,144 - INFO - ---Testing APIN rDLM #12---
+2026-01-26 01:32:25,264 - INFO - Prediction accuracy: 88.76%
+2026-01-26 01:32:25,264 - INFO - ---Testing APIN rDLM #13---
+2026-01-26 01:32:25,385 - INFO - Prediction accuracy: 88.06%
+2026-01-26 01:32:25,386 - INFO - ---Testing APIN rDLM #14---
+2026-01-26 01:32:25,499 - INFO - Prediction accuracy: 89.04%
+2026-01-26 01:32:25,499 - INFO - ---Testing APIN rDLM #15---
+2026-01-26 01:32:25,616 - INFO - Prediction accuracy: 89.12%
+2026-01-26 01:32:25,617 - INFO - ---Testing APIN rDLM #16---
+2026-01-26 01:32:25,742 - INFO - Prediction accuracy: 88.41%
+2026-01-26 01:32:25,743 - INFO - ---Testing APIN rDLM #17---
+2026-01-26 01:32:25,856 - INFO - Prediction accuracy: 89.19%
+2026-01-26 01:32:25,857 - INFO - ---Testing APIN rDLM #18---
+2026-01-26 01:32:25,979 - INFO - Prediction accuracy: 88.90%
+2026-01-26 01:32:25,980 - INFO - ---Testing APIN rDLM #19---
+2026-01-26 01:32:26,091 - INFO - Prediction accuracy: 88.06%
