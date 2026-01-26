@@ -11,17 +11,6 @@ Path('weight/iDLM_weights').mkdir(parents=True, exist_ok=True)
 Path('weight/repair').mkdir(parents=True, exist_ok=True)
 Path('weight/rDLM_weights').mkdir(parents=True, exist_ok=True)
 
-# log recording
-log_file = Path('logs/rDLM_train.log')
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(log_file, encoding='utf-8'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
 
 # Hyper-parameters
 num_epochs = 5
@@ -43,6 +32,18 @@ classifier = 'APIN'
 assign = 'rDLM'
 rDLM_num = 20
 model_pth_list = []
+
+# log recording
+log_file = Path(f'logs/{classifier}_rDLM_train.log')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_file, encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 output = data_loader(
     # 先加载Preprocess，再加载DataLoader

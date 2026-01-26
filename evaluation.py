@@ -24,8 +24,12 @@ def compute_metrics_diff(before_metrics, after_metrics):
         diff[k] = 'N/A'
     return diff
 
+
+classifier = 'APIN'
+assign = 'iDLM'
+
 # log recording
-log_file = Path('logs/evaluation.log')
+log_file = Path(f'logs/{classifier}_evaluation.log')
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -35,10 +39,6 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-
-
-classifier = 'APIN'
-assign = 'iDLM'
 
 before_csv = f'output/prediction_output_{classifier}_{assign}.csv'
 after_csv = f'output/repaired_prediction_output_{classifier}_iDLM.csv'

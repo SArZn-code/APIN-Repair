@@ -13,19 +13,6 @@ Path('weight/iDLM_weights').mkdir(parents=True, exist_ok=True)
 Path('weight/repair').mkdir(parents=True, exist_ok=True)
 Path('weight/rDLM_weights').mkdir(parents=True, exist_ok=True)
 
-# log recording
-log_file = Path('logs/iDLM_train.log')
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler(log_file, encoding='utf-8'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
-
-
 # Hyper-parameters
 num_epochs = 30
 batch_size = 128
@@ -42,6 +29,20 @@ max_length=200
 
 classifier = 'APIN'
 assign = 'iDLM'
+
+# log recording
+log_file = Path(f'logs/{classifier}_iDLM_train.log')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_file, encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+
 # 加载训练集
 output = data_loader(
     # 先加载Preprocess，再加载DataLoader

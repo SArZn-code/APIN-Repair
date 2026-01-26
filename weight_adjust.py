@@ -84,8 +84,17 @@ Path('weight/iDLM_weights').mkdir(parents=True, exist_ok=True)
 Path('weight/repair').mkdir(parents=True, exist_ok=True)
 Path('weight/rDLM_weights').mkdir(parents=True, exist_ok=True)
 
+
+retrain_epoch_num = 2
+assign='repaired'
+classifier = 'APIN'
+idlm_path = f'weight/iDLM_weights/{classifier}_classifier_iDLM.pth'
+rdlm_dir = 'weight/rDLM_weights/'
+save_model_pth = f'weight/repair/{classifier}_fixed_patch.pth'
+device = 'cuda'
+
 # log recording
-log_file = Path('logs/weight_adjust.log')
+log_file = Path(f'logs/{classifier}_weight_adjust.log')
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -95,14 +104,6 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-
-retrain_epoch_num = 2
-assign='repaired'
-classifier = 'APIN'
-idlm_path = f'weight/iDLM_weights/{classifier}_classifier_iDLM.pth'
-rdlm_dir = 'weight/rDLM_weights/'
-save_model_pth = f'weight/repair/{classifier}_fixed_patch.pth'
-device = 'cuda'
 
 max_length=200
 train_batch_size = 20 
