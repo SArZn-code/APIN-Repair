@@ -256,11 +256,11 @@ def Prediction(model_pth,
                device='cuda'): # 预测函数
 
     if assign == 'iDLM':
-        save_pth = f'output/prediction_output_{classifier}_{assign}'
+        save_pth = f'output_repair/prediction_output_{classifier}_{assign}'
     elif assign == 'rDLM':
-        save_pth = f'output/rDLM/prediction_output_{classifier}_{assign}_{rDLM}'
+        save_pth = f'output_repair/rDLM/prediction_output_{classifier}_{assign}_{rDLM}'
     else:
-        save_pth = f'output/repaired_prediction_output_{classifier}_iDLM'
+        save_pth = f'output_repair/repaired_prediction_output_{classifier}_iDLM'
     model = APIN(attention_num, attention_range, embed_length, max_length)
     model.load_state_dict(torch.load(model_pth))
     model.to(device)

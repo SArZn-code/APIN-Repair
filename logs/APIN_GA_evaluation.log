@@ -1,0 +1,100 @@
+2026-01-29 18:48:36,787 - INFO - --- AMPs evaluation rank0_score47.9916 ---
+2026-01-29 18:48:36,787 - INFO - Net Charge: 0.454
+2026-01-29 18:48:36,788 - INFO - pI: 7.290
+2026-01-29 18:48:36,788 - INFO - MW: 2049.470
+2026-01-29 18:48:36,788 - INFO - Instability Index: 11.990
+2026-01-29 18:48:36,788 - INFO - Boman Index: -0.816
+2026-01-29 18:48:36,788 - INFO - Hydrophobicity: 0.332
+2026-01-29 18:48:36,788 - INFO - Hydrophobic Moment (μH): 0.101
+2026-01-29 18:48:36,788 - INFO - Composition: {'C': 0.4, 'W': 0.1, 'G': 0.3, 'V': 0.05, 'T': 0.05, 'K': 0.05, 'Y': 0.05}
+2026-01-29 18:48:36,788 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_0.png
+2026-01-29 18:48:37,001 - INFO - --- AMPs evaluation rank1_score32.6028 ---
+2026-01-29 18:48:37,001 - INFO - Net Charge: 0.622
+2026-01-29 18:48:37,001 - INFO - pI: 7.379
+2026-01-29 18:48:37,001 - INFO - MW: 2089.470
+2026-01-29 18:48:37,002 - INFO - Instability Index: 69.510
+2026-01-29 18:48:37,002 - INFO - Boman Index: 0.993
+2026-01-29 18:48:37,002 - INFO - Hydrophobicity: 0.030
+2026-01-29 18:48:37,002 - INFO - Hydrophobic Moment (μH): 0.190
+2026-01-29 18:48:37,002 - INFO - Composition: {'C': 0.35, 'G': 0.15, 'V': 0.05, 'S': 0.05, 'D': 0.05, 'A': 0.05, 'H': 0.05, 'T': 0.05, 'K': 0.05, 'R': 0.05, 'W': 0.05, 'P': 0.05}
+2026-01-29 18:48:37,002 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_1.png
+2026-01-29 18:48:37,130 - INFO - --- AMPs evaluation rank2_score31.2174 ---
+2026-01-29 18:48:37,131 - INFO - Net Charge: 2.657
+2026-01-29 18:48:37,131 - INFO - pI: 8.282
+2026-01-29 18:48:37,131 - INFO - MW: 2421.910
+2026-01-29 18:48:37,132 - INFO - Instability Index: 55.025
+2026-01-29 18:48:37,132 - INFO - Boman Index: 0.153
+2026-01-29 18:48:37,132 - INFO - Hydrophobicity: 0.191
+2026-01-29 18:48:37,132 - INFO - Hydrophobic Moment (μH): 0.150
+2026-01-29 18:48:37,132 - INFO - Composition: {'G': 0.15, 'C': 0.25, 'W': 0.2, 'A': 0.05, 'V': 0.15, 'R': 0.1, 'K': 0.05, 'Y': 0.05}
+2026-01-29 18:48:37,132 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_2.png
+2026-01-29 18:48:37,322 - INFO - --- AMPs evaluation rank3_score29.0618 ---
+2026-01-29 18:48:37,322 - INFO - Net Charge: 1.757
+2026-01-29 18:48:37,322 - INFO - pI: 7.955
+2026-01-29 18:48:37,322 - INFO - MW: 2523.100
+2026-01-29 18:48:37,322 - INFO - Instability Index: 15.010
+2026-01-29 18:48:37,323 - INFO - Boman Index: -0.283
+2026-01-29 18:48:37,323 - INFO - Hydrophobicity: 0.294
+2026-01-29 18:48:37,323 - INFO - Hydrophobic Moment (μH): 0.184
+2026-01-29 18:48:37,323 - INFO - Composition: {'C': 0.25, 'W': 0.2, 'G': 0.1, 'H': 0.05, 'V': 0.1, 'K': 0.05, 'F': 0.05, 'T': 0.05, 'R': 0.05, 'M': 0.1}
+2026-01-29 18:48:37,323 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_3.png
+2026-01-29 18:48:37,447 - INFO - --- AMPs evaluation rank4_score26.1404 ---
+2026-01-29 18:48:37,447 - INFO - Net Charge: 0.788
+2026-01-29 18:48:37,447 - INFO - pI: 7.469
+2026-01-29 18:48:37,448 - INFO - MW: 2402.810
+2026-01-29 18:48:37,448 - INFO - Instability Index: 61.960
+2026-01-29 18:48:37,448 - INFO - Boman Index: 1.602
+2026-01-29 18:48:37,448 - INFO - Hydrophobicity: -0.033
+2026-01-29 18:48:37,448 - INFO - Hydrophobic Moment (μH): 0.117
+2026-01-29 18:48:37,448 - INFO - Composition: {'P': 0.05, 'C': 0.3, 'H': 0.1, 'G': 0.1, 'N': 0.05, 'R': 0.1, 'V': 0.05, 'E': 0.05, 'I': 0.05, 'Y': 0.1, 'W': 0.05}
+2026-01-29 18:48:37,448 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_4.png
+2026-01-29 18:48:37,570 - INFO - --- AMPs evaluation rank5_score23.3578 ---
+2026-01-29 18:48:37,570 - INFO - Net Charge: 1.787
+2026-01-29 18:48:37,570 - INFO - pI: 7.838
+2026-01-29 18:48:37,570 - INFO - MW: 2401.880
+2026-01-29 18:48:37,570 - INFO - Instability Index: 8.355
+2026-01-29 18:48:37,571 - INFO - Boman Index: 1.126
+2026-01-29 18:48:37,571 - INFO - Hydrophobicity: 0.080
+2026-01-29 18:48:37,571 - INFO - Hydrophobic Moment (μH): 0.205
+2026-01-29 18:48:37,571 - INFO - Composition: {'C': 0.3, 'Y': 0.05, 'G': 0.1, 'H': 0.1, 'F': 0.15, 'T': 0.05, 'R': 0.1, 'Q': 0.05, 'V': 0.05, 'M': 0.05}
+2026-01-29 18:48:37,571 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_5.png
+2026-01-29 18:48:37,695 - INFO - --- AMPs evaluation rank6_score22.9874 ---
+2026-01-29 18:48:37,696 - INFO - Net Charge: 3.923
+2026-01-29 18:48:37,696 - INFO - pI: 9.117
+2026-01-29 18:48:37,696 - INFO - MW: 2186.490
+2026-01-29 18:48:37,696 - INFO - Instability Index: 15.450
+2026-01-29 18:48:37,696 - INFO - Boman Index: 2.950
+2026-01-29 18:48:37,696 - INFO - Hydrophobicity: -0.320
+2026-01-29 18:48:37,696 - INFO - Hydrophobic Moment (μH): 0.197
+2026-01-29 18:48:37,696 - INFO - Composition: {'R': 0.15, 'Q': 0.05, 'K': 0.05, 'G': 0.25, 'C': 0.2, 'H': 0.1, 'T': 0.05, 'P': 0.05, 'S': 0.05, 'W': 0.05}
+2026-01-29 18:48:37,697 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_6.png
+2026-01-29 18:48:37,822 - INFO - --- AMPs evaluation rank7_score22.2755 ---
+2026-01-29 18:48:37,822 - INFO - Net Charge: -0.143
+2026-01-29 18:48:37,822 - INFO - pI: 6.871
+2026-01-29 18:48:37,822 - INFO - MW: 2095.460
+2026-01-29 18:48:37,822 - INFO - Instability Index: 48.955
+2026-01-29 18:48:37,823 - INFO - Boman Index: 0.833
+2026-01-29 18:48:37,823 - INFO - Hydrophobicity: 0.079
+2026-01-29 18:48:37,823 - INFO - Hydrophobic Moment (μH): 0.177
+2026-01-29 18:48:37,823 - INFO - Composition: {'E': 0.05, 'C': 0.25, 'A': 0.05, 'Q': 0.05, 'H': 0.1, 'G': 0.15, 'L': 0.05, 'T': 0.1, 'M': 0.05, 'K': 0.05, 'N': 0.05, 'V': 0.05}
+2026-01-29 18:48:37,823 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_7.png
+2026-01-29 18:48:37,948 - INFO - --- AMPs evaluation rank8_score21.2119 ---
+2026-01-29 18:48:37,948 - INFO - Net Charge: 0.658
+2026-01-29 18:48:37,949 - INFO - pI: 7.530
+2026-01-29 18:48:37,949 - INFO - MW: 2035.460
+2026-01-29 18:48:37,949 - INFO - Instability Index: -7.875
+2026-01-29 18:48:37,949 - INFO - Boman Index: -0.904
+2026-01-29 18:48:37,949 - INFO - Hydrophobicity: 0.398
+2026-01-29 18:48:37,949 - INFO - Hydrophobic Moment (μH): 0.198
+2026-01-29 18:48:37,949 - INFO - Composition: {'F': 0.05, 'C': 0.25, 'A': 0.05, 'G': 0.2, 'Q': 0.05, 'V': 0.15, 'L': 0.05, 'T': 0.1, 'K': 0.05, 'W': 0.05}
+2026-01-29 18:48:37,949 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_8.png
+2026-01-29 18:48:38,071 - INFO - --- AMPs evaluation rank9_score21.1187 ---
+2026-01-29 18:48:38,071 - INFO - Net Charge: 2.726
+2026-01-29 18:48:38,071 - INFO - pI: 8.536
+2026-01-29 18:48:38,072 - INFO - MW: 2563.210
+2026-01-29 18:48:38,072 - INFO - Instability Index: 67.070
+2026-01-29 18:48:38,072 - INFO - Boman Index: 0.556
+2026-01-29 18:48:38,072 - INFO - Hydrophobicity: 0.052
+2026-01-29 18:48:38,072 - INFO - Hydrophobic Moment (μH): 0.064
+2026-01-29 18:48:38,072 - INFO - Composition: {'K': 0.15, 'M': 0.15, 'W': 0.2, 'A': 0.05, 'D': 0.05, 'P': 0.05, 'R': 0.05, 'G': 0.05, 'C': 0.2, 'I': 0.05}
+2026-01-29 18:48:38,073 - INFO - Alpha helical wheel, save to ./output_GA/helical_wheel_9.png

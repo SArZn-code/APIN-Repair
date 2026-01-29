@@ -78,7 +78,7 @@ def TrainingModel(model, epoch_num): # 短期微调训练
     model.eval()
 
 
-Path('output/rDLM').mkdir(parents=True, exist_ok=True)
+Path('output_repair/rDLM').mkdir(parents=True, exist_ok=True)
 Path('logs').mkdir(parents=True, exist_ok=True)
 Path('weight/iDLM_weights').mkdir(parents=True, exist_ok=True)
 Path('weight/repair').mkdir(parents=True, exist_ok=True)
