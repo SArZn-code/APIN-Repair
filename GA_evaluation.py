@@ -70,6 +70,7 @@ class AMPAnalyzer:
     def plot_wheel(self, filename=None):
         """生成并显示/保存螺旋轮图"""
         logger.info(f"Alpha helical wheel, save to {filename}")
+        # red negative, blue positive
         helical_wheel(self.seq, filename=filename, colorcoding='charge')
 
 

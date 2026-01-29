@@ -162,7 +162,7 @@ def on_generation(ga_instance):
     #     print("警告：种群已失去多样性，可能陷入局部最优。")
 
 
-def plot_analysis():
+def plot_analysis(score_trans_list):
     import matplotlib.pyplot as plt
     
     best_outputs_np = np.array(best_outputs)
@@ -215,6 +215,14 @@ def plot_analysis():
     plt.savefig('./output_GA/GA_convergence_subplots.png', dpi=150)
     plt.close()
 
+    plt.figure(figsize=(10, 6))
+    plt.hist(score_trans_list, bins=10, color='black', alpha=0.7)
+    
+    plt.title('Frequency Distribution of Score Trans', fontsize=15)
+    plt.xlabel('Scores', fontsize=12)
+    plt.ylabel('Frequency', fontsize=12)
+    plt.savefig('./output_GA/Frequency of Score.png', dpi=150)
+    plt.close()
 
 # --- 准备工作 ---
 best_outputs = []
@@ -226,6 +234,7 @@ avg_novelty_outputs = []
 fit_cv_outputs = []
 classifier = 'APIN'
 repaired_pth = f'weight/repair/{classifier}_fixed_patch.pth'
+# repaired_pth = f'weight/iDLM_weights/{classifier}_classifier_iDLM.pth'
 attention_num = 64
 attention_range = 14
 embed_length = 128
@@ -292,18 +301,26 @@ logger.info(f"Best AMPs Sequence: {best_seq}")
 
 # 保存最后一轮前top_n的序列到fasta
 # top_n存全部
-top_n = sol_per_pop 
 top_n = 10
 current_fitness = ga_instance.last_generation_fitness
 top_indices = np.argsort(current_fitness)[-top_n:][::-1]  # 从高到低
+total_indices = np.argsort(current_fitness)[::-1]  # 全部，从高到低
 population = ga_instance.population
 
-with open('./output_GA/top_sequences.fasta', 'w') as f:
-    for rank, idx in enumerate(top_indices):
+score_trans_list = []
+with open('./output_GA/total_sequences.fasta', 'w') as f_all, \
+     open('./output_GA/top_sequences.fasta', 'w') as f_top:
+    for rank, idx in enumerate(total_indices):
         seq = decode_seq(population[idx])
         score = current_fitness[idx]
-        f.write(f'>rank{rank}_score{score:.4f}\n{seq}\n')
+        score_trans = torch.sigmoid(torch.tensor(score))
+        # score_trans_list.append(score)
+        score_trans_list.append(score_trans)
+        line = f'>rank{rank}_score {score:.4f}_trans {score_trans:.4f}\n{seq}\n'
+        f_all.write(line)
+        if rank < 10:
+            f_top.write(line)
 
 # 绘图
-plot_analysis()
+plot_analysis(score_trans_list)
 
