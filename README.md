@@ -2,10 +2,10 @@ Neural Network Repair of Convolutional Neural Networks (CNN) for Antimicribial P
 # Neural network
 Derived from APIN (MultipleScale-CNN)
 reference: 10.1186/s12859-019-3327-y
-# repair technique
+# Repair technique
 Derived from Apricot (heavy repair method)
 reference: 10.1109/ASE.2019.00043
-# pepline
+# Pepline
 1. original model train (if have not trained .pth)
 `iDLM.py`
 2. repair prepared
