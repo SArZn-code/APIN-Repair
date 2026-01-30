@@ -304,9 +304,7 @@ def data_loader(max_length,
                 valid_false_file=None, 
                 
                 true_test_file=None, 
-                false_test_file=None,
-
-                allocate_valid = False):
+                false_test_file=None):
     output = {}
     data = Preprocess(max_length, true_test_file, false_test_file, train_true_file, train_false_file, valid_true_file, valid_false_file)  # 变成list
     
@@ -320,15 +318,6 @@ def data_loader(max_length,
     try:
         X_train = data.get('X_train')
         Y_train = data.get('Y_train')
-
-        if allocate_valid:
-            length = [len(i) for i in X_train]
-            X_train, X_val, Y_train, Y_val = train_test_split(
-                X_train, Y_train, 
-                train_size=0.8,     # 80% 训练，20% 验证
-                random_state=42,    
-                stratify=Y_train    # 如需按长度分层，改为 stratify=length_bins
-            )
 
         # 切割数据集 rDLM
         if clip_proportion < 1:
@@ -354,9 +343,8 @@ def data_loader(max_length,
         logger.info("No training data loaded.")
 
     try:
-        if not allocate_valid:
-            X_val = data.get('X_val')
-            Y_val = data.get('Y_val')
+        X_val = data.get('X_val')
+        Y_val = data.get('Y_val')
 
         X_val_tensor = torch.tensor(X_val, dtype=torch.long)
         Y_val_tensor = torch.tensor(Y_val, dtype=torch.float32)
