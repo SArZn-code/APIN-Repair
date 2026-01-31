@@ -455,3 +455,41 @@ def evaluate_classification_metrics(y_true, y_pred, y_prob=None):
         "AUC-ROC": round(auc_roc, 4) if y_prob is not None else "N/A",
         "AUC-PR": round(auc_pr, 4) if y_prob is not None else "N/A",
     }
+
+def data_split(train, valid=1, test=1, valid_clip_proportion=0.2, test_clip_proportion=0.2):
+    # 分割fasta文件为train/valid/test三份，并保存为fasta文件
+    # train: 输入fasta文件路径
+    # valid, test: 输出fasta文件路径（不含扩展名，自动加后缀）
+    # valid_clip_proportion, test_clip_proportion: 比例（如0.2）
+    from Bio import SeqIO
+    import random
+
+    records = list(SeqIO.parse(train, "fasta"))
+    total = len(records)
+    idx = list(range(total))
+    random.shuffle(idx)
+
+    valid_n = 0
+    test_n = 0
+    
+    if valid:
+        valid_n = int(total * valid_clip_proportion)
+        valid_idx = idx[:valid_n]
+        valid_records = [records[i] for i in valid_idx]
+        valid_out = train.replace('.fasta', '_valid.fasta')
+        SeqIO.write(valid_records, valid_out, "fasta")
+        print(f"Valid Clipped: {len(valid_records)}")
+    if test:
+        test_n = int(total * test_clip_proportion)
+        test_idx = idx[valid_n:valid_n+test_n]
+        test_records = [records[i] for i in test_idx]
+        test_out = train.replace('.fasta', '_test.fasta')
+        SeqIO.write(test_records, test_out, "fasta")
+        print(f"Test Clipped: {len(test_records)}")
+
+    # 输出文件名
+    train_idx = idx[valid_n+test_n:]
+    train_records = [records[i] for i in train_idx]
+    train_out = train.replace('.fasta', '_train.fasta')
+    SeqIO.write(train_records, train_out, "fasta")
+    print(f"Train: {len(train_records)}")

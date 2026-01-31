@@ -174,6 +174,15 @@ for b_idx, (x, x_class) in enumerate(train_loader): # 一个batch
         x, x_class = x.to(device), x_class.to(device)
         yOrigin = (torch.sigmoid(iDLM(x)) > 0.5).float()  # 主模型对当前batch的预测结果
         ySubList = [(torch.sigmoid(rdlm(x)) > 0.5).float() for rdlm in rDLMs] # 所有子模型对当前batch的预测结果 
+
+        # 先整体判断一遍
+        batch_correct = (yOrigin.squeeze() == x_class.squeeze())
+        if batch_correct.all():
+            logger.info('batch %d/%d all correct, no need adjustment', b_idx, all_batches)
+            continue
+
+        logger.info('batch %d/%d, need adjustment', b_idx, all_batches)
+
         for i_idx in range(x.size(0)): # (用train_batch_size最后一个batch不够可能会越界) 遍历一个batch中的每个样本 
             single_class = x_class[i_idx] # 一个样本的真实标签
             if yOrigin[i_idx].item() == single_class.item():
@@ -183,7 +192,6 @@ for b_idx, (x, x_class) in enumerate(train_loader): # 一个batch
                 incorrectSubModels = [rdlm for r_idx, rdlm in enumerate(rDLMs) if ySubList[r_idx][i_idx].item() != single_class.item()]
                 if len(correctSubModels) == 0 or len(incorrectSubModels) == 0: # ???
                     continue # slightly different from paper
-                
                 # 原始：按模型组织
                 # 模型1: [w0, w1, w2, w3]
                 # 模型2: [w0, w1, w2, w3]
