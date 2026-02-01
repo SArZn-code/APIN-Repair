@@ -257,8 +257,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# true_test_file = 'data/DAMP/AMP.te.fasta'
-# false_test_file = 'data/DAMP/Non-AMP.te.fasta'
+# true_test_file = 'data/dbAMP/AMP.te.fasta'
+# false_test_file = 'data/dbAMP/Non-AMP.te.fasta'
 
 # data = Preprocess(max_length, true_test_file=true_test_file, false_test_file=false_test_file)
 # my_initial_pop = data.get('X_test')
