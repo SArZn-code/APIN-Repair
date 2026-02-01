@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import logging
+from Bio import SeqIO
 
 logger = logging.getLogger(__name__)
 
@@ -43,27 +44,21 @@ def Preprocess(max_length, true_test_file=None, false_test_file=None, train_true
     #################################
     # X_test 中加载测试序列 来自 true_test_file 和 false_test_file
     if true_test_file is not None and false_test_file is not None:
-        X_test = [] # 所有测试序列编码
-        Y_test = [] # 测试标签
-        text = []  # temp存储
+        X_test = []  # 所有测试序列编码
+        Y_test = []  # 测试标签
 
-        file =open(true_test_file,'r')
-        read_text = file.readlines()
-        file.close()
-        text.extend(read_text) # 将另一个可迭代对象中的所有元素添加到列表末尾
-        Y_test.extend((np.zeros(len(read_text)//2) + 1).tolist()) # true_test_file(正样本)部分为1
+        # 使用 Biopython 解析 multi-line FASTA
+        for record in SeqIO.parse(true_test_file, "fasta"):
+            seq_str = str(record.seq).upper().strip()
+            seq_str = seq_str[:max_length]
+            X_test.append(seq_to_num(seq_str, max_length))
+            Y_test.append(1)
 
-        file =open(false_test_file,'r')
-        read_text = file.readlines()
-        file.close()
-        text.extend(read_text)
-        Y_test.extend(np.zeros(len(read_text)//2).tolist()) # false_test_file(负样本)部分为0
-
-        for i in range(len(text)//2):
-            line = text[i*2+1] # 单条序列（蛋白质字符串）
-            line = line[0:len(line)-1] # 去掉换行符
-            seq = seq_to_num(line,max_length) # seq_to_num 调用 编码后的序列
-            X_test.append(seq)
+        for record in SeqIO.parse(false_test_file, "fasta"):
+            seq_str = str(record.seq).upper().strip()
+            seq_str = seq_str[:max_length]
+            X_test.append(seq_to_num(seq_str, max_length))
+            Y_test.append(0)
 
         result['X_test'] = np.array(X_test)
         result['Y_test'] = np.array(Y_test).astype(int)
@@ -71,27 +66,20 @@ def Preprocess(max_length, true_test_file=None, false_test_file=None, train_true
     #################################
     # X_train 中加载训练序列 来自 train_true_file 和 train_false_file
     if train_true_file is not None and train_false_file is not None:
-        X_train = [] # 所有训练序列编码
-        Y_train = [] # 训练标签
-        text = []
-        
-        file =open(train_true_file,'r')
-        read_text = file.readlines()
-        file.close()
-        text.extend(read_text)
-        Y_train.extend((np.zeros(len(read_text)//2) + 1).tolist()) # train_true_file(正样本)部分为1
-        
-        file =open(train_false_file,'r')
-        read_text = file.readlines()
-        file.close()
-        text.extend(read_text)
-        Y_train.extend(np.zeros(len(read_text)//2).tolist()) # train_false_file(负样本)部分为0
+        X_train = []  # 所有训练序列编码
+        Y_train = []  # 训练标签
 
-        for i in range(len(text)//2):
-            line = text[i*2+1]
-            line = line[0:len(line)-1]
-            seq = seq_to_num(line,max_length)
-            X_train.append(seq)
+        for record in SeqIO.parse(train_true_file, "fasta"):
+            seq_str = str(record.seq).upper().strip()
+            seq_str = seq_str[:max_length]
+            X_train.append(seq_to_num(seq_str, max_length))
+            Y_train.append(1)
+
+        for record in SeqIO.parse(train_false_file, "fasta"):
+            seq_str = str(record.seq).upper().strip()
+            seq_str = seq_str[:max_length]
+            X_train.append(seq_to_num(seq_str, max_length))
+            Y_train.append(0)
 
         result['X_train'] = np.array(X_train)
         result['Y_train'] = np.array(Y_train).astype(int)
@@ -99,27 +87,20 @@ def Preprocess(max_length, true_test_file=None, false_test_file=None, train_true
 
     # X_val 中加载验证序列 来自 valid_true_file 和 valid_false_file
     if valid_true_file is not None and valid_false_file is not None:
-        X_val = [] # 所有验证序列编码
-        Y_val = [] # 验证标签
-        text = []
-        
-        file =open(valid_true_file,'r')
-        read_text = file.readlines()
-        file.close()
-        text.extend(read_text)
-        Y_val.extend((np.zeros(len(read_text)//2) + 1).tolist()) # valid_true_file(正样本)部分为1
-        
-        file =open(valid_false_file,'r')
-        read_text = file.readlines()
-        file.close()
-        text.extend(read_text)
-        Y_val.extend(np.zeros(len(read_text)//2).tolist()) # valid_false_file(负样本)部分为0
+        X_val = []  # 所有验证序列编码
+        Y_val = []  # 验证标签
 
-        for i in range(len(text)//2):
-            line = text[i*2+1]
-            line = line[0:len(line)-1]
-            seq = seq_to_num(line,max_length)
-            X_val.append(seq)
+        for record in SeqIO.parse(valid_true_file, "fasta"):
+            seq_str = str(record.seq).upper().strip()
+            seq_str = seq_str[:max_length]
+            X_val.append(seq_to_num(seq_str, max_length))
+            Y_val.append(1)
+
+        for record in SeqIO.parse(valid_false_file, "fasta"):
+            seq_str = str(record.seq).upper().strip()
+            seq_str = seq_str[:max_length]
+            X_val.append(seq_to_num(seq_str, max_length))
+            Y_val.append(0)
 
         result['X_val'] = np.array(X_val)
         result['Y_val'] = np.array(Y_val).astype(int)

@@ -5,32 +5,35 @@ def process_fasta(input_path, output_path, min_len=10, max_len=200):
     stats = {"total": 0, "kept": 0, "len_rem": 0, "aa_rem": 0}
     # 需去除的特殊氨基酸
     FORBIDDEN_AA = set("BJOUXZ")
-    with open(output_path, "w") as out_handle:
-        # SeqIO.parse 自动处理多行合并问题
-        for record in SeqIO.parse(input_path, "fasta"):
-            stats["total"] += 1
+    
+    kept_records = []
+    
+    for record in SeqIO.parse(input_path, "fasta"):
+        stats["total"] += 1
+        
+        # 1. 统一处理序列
+        seq_str = str(record.seq).upper()
+        seq_len = len(seq_str)
+        
+        # 2. 长度过滤
+        if not (min_len <= seq_len <= max_len):
+            stats["len_rem"] += 1
+            continue
             
-            # 1. 统一转为大写字符串处理, 提升效率
-            seq_str = str(record.seq).upper()
-            seq_len = len(seq_str)
-            
-            # 2. 长度过滤
-            if not (min_len <= seq_len <= max_len):
-                stats["len_rem"] += 1
-                continue
-                
-            # 3. 特殊氨基酸过滤 (使用 set 操作效率更高)
-            if any(aa in FORBIDDEN_AA for aa in seq_str):
-                stats["aa_rem"] += 1
-                continue
-            
-            # 4. 写入文件：手动构建字符串以确保序列“不分行”
-            # SeqIO.write 默认可能会对长序列进行 60 字符折行, 手动写更稳
-            out_handle.write(f">{record.id}\n{seq_str}\n")
-            stats["kept"] += 1
+        # 3. 特殊氨基酸过滤
+        if any(aa in FORBIDDEN_AA for aa in seq_str):
+            stats["aa_rem"] += 1
+            continue
+        
+        # 更新 record 的序列为大写（保证输出一致性）
+        record.seq = record.seq.upper()
+        kept_records.append(record)
+        stats["kept"] += 1
+
+    # 4.  fasta-2line 一次性写入
+    SeqIO.write(kept_records, output_path, "fasta")
             
     return stats
-
 
 def plot_length_distribution(amp_fasta, non_amp_fasta,path):
     # 提取长度数据
@@ -58,8 +61,10 @@ def plot_length_distribution(amp_fasta, non_amp_fasta,path):
     plt.grid(axis='y', linestyle='--', alpha=0.7)
 
     # 保存图片
-    logger.info(f"统计图已保存至: {path}")
+    plt.savefig(path, dpi=300)
     plt.savefig(path)
+    logger.info(f"统计图已保存至: {path}")
+    
     plt.show()
 
 
