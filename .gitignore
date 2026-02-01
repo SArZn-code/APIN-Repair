@@ -6,3 +6,4 @@ __pycache__/
 !/data/**/*py
 !/data/**/*.*.fasta
 !/data/**/*.png
+output_GA/*cif

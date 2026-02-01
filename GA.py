@@ -263,13 +263,15 @@ logger = logging.getLogger(__name__)
 # data = Preprocess(max_length, true_test_file=true_test_file, false_test_file=false_test_file)
 # my_initial_pop = data.get('X_test')
 
-initial_peptides = ["SLWLDKRDTNT", "FIGAVAGLLSKIF", "DISLPILVVQHMPAGFTKAFATR"]
-my_initial_pop = [encode_to_indices(seq, max_length) for seq in initial_peptides]
-
 num_generations=100    # 进化代数
-num_parents_mating=5   # 每次选 多少 个优秀个体做父母
+num_parents_mating=3   # 每次选 多少 个优秀个体做父母
 sol_per_pop=100        # 种群大小（每代序列数量） initial_population传入不足, 会自动生成
-ga_length = 20 # GA 搜索的序列长度
+ga_length = 30 # GA 搜索的序列长度
+
+initial_peptides = ["SLWLDKRDTNT", "FIGAVAGLLSKIF", "DISLPILVVQHMPAGFTKAFATR"]
+my_initial_pop = [encode_to_indices(seq, ga_length) for seq in initial_peptides]
+
+
 
 # --- 配置 PyGAD ---
 ga_instance = pygad.GA(
@@ -278,7 +280,7 @@ ga_instance = pygad.GA(
     num_parents_mating=num_parents_mating,  
     sol_per_pop=sol_per_pop,    
 
-    num_genes=ga_length,                  # 序列长度（假设寻找长度 ga_length 肽）
+    num_genes=ga_length,               # 序列长度（假设寻找长度 ga_length 肽）
     gene_space=list(range(1, 21)),    # 基因取值范围：1-20 (对应 20 种氨基酸)
     
     fitness_func=fitness_func,     # 刚才定义的适应度函数  
