@@ -262,11 +262,11 @@ num_parents_mating= 30   # 每次选 多少 个优秀个体做父母
 sol_per_pop= 100        # 种群大小（每代序列数量） initial_population传入不足, 会自动生成
 ga_length = 20 # GA 搜索的序列长度
 
-# true_test_file = 'data/dbAMP/AMP.te.fasta'
-# false_test_file = 'data/dbAMP/Non-AMP.te.fasta'
-# data = Preprocess(max_length, true_test_file=true_test_file, false_test_file=false_test_file)
-# my_initial_pop = data.get('X_test')
-# initial_peptides = [decode_seq(seq) for seq in my_initial_pop]
+true_test_file = 'data/dbAMP/AMP.te.fasta'
+false_test_file = 'data/dbAMP/Non-AMP.te.fasta'
+data = Preprocess(max_length, true_test_file=true_test_file, false_test_file=false_test_file)
+my_initial_pop = data.get('X_test')
+initial_peptides = [decode_seq(seq) for seq in my_initial_pop] # 这个必须加, 因为novelty要用到初始序列
 
 # initial_peptides = ["SLWLDKRDTNT", "FIGAVAGLLSKIF", "DISLPILVVQHMPAGFTKAFATR"]
 # my_initial_pop = [encode_to_indices(seq, ga_length) for seq in initial_peptides]
