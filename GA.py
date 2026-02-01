@@ -39,7 +39,7 @@ def encode_to_indices(seq_input,max_length): # 单序列编码
 
 def decode_seq(solution): # 单个序列解码, 用于GA只能一次传一个序列
     reverse_protein_dict = {
-            0: 'Z',
+            0: '',
             1: 'A',
             2: 'C',
             3: 'D',
@@ -257,20 +257,19 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+num_generations= 100    # 进化代数
+num_parents_mating= 30   # 每次选 多少 个优秀个体做父母
+sol_per_pop= 100        # 种群大小（每代序列数量） initial_population传入不足, 会自动生成
+ga_length = 20 # GA 搜索的序列长度
+
 # true_test_file = 'data/dbAMP/AMP.te.fasta'
 # false_test_file = 'data/dbAMP/Non-AMP.te.fasta'
-
 # data = Preprocess(max_length, true_test_file=true_test_file, false_test_file=false_test_file)
 # my_initial_pop = data.get('X_test')
+# initial_peptides = [decode_seq(seq) for seq in my_initial_pop]
 
-num_generations=100    # 进化代数
-num_parents_mating=3   # 每次选 多少 个优秀个体做父母
-sol_per_pop=100        # 种群大小（每代序列数量） initial_population传入不足, 会自动生成
-ga_length = 30 # GA 搜索的序列长度
-
-initial_peptides = ["SLWLDKRDTNT", "FIGAVAGLLSKIF", "DISLPILVVQHMPAGFTKAFATR"]
-my_initial_pop = [encode_to_indices(seq, ga_length) for seq in initial_peptides]
-
+# initial_peptides = ["SLWLDKRDTNT", "FIGAVAGLLSKIF", "DISLPILVVQHMPAGFTKAFATR"]
+# my_initial_pop = [encode_to_indices(seq, ga_length) for seq in initial_peptides]
 
 
 # --- 配置 PyGAD ---
@@ -280,16 +279,16 @@ ga_instance = pygad.GA(
     num_parents_mating=num_parents_mating,  
     sol_per_pop=sol_per_pop,    
 
-    num_genes=ga_length,               # 序列长度（假设寻找长度 ga_length 肽）
-    gene_space=list(range(1, 21)),    # 基因取值范围：1-20 (对应 20 种氨基酸)
+    num_genes=ga_length,             # 序列长度（假设寻找长度 ga_length 肽）
+    gene_space=list(range(1, 21)),   # 基因取值范围：1-20 (对应 20 种氨基酸)
     
-    fitness_func=fitness_func,     # 刚才定义的适应度函数  
-    gene_type=int,                 # 基因必须是整数
+    fitness_func=fitness_func,       # 刚才定义的适应度函数  
+    gene_type=int,                   # 基因必须是整数
     
-    parent_selection_type="sss",   # 稳态选择
-    crossover_type="single_point", # 单点交叉
-    mutation_type="random",        # 随机变异
-    mutation_probability=0.5,       # 变异概率
+    parent_selection_type="rws",     # 轮盘赌
+    crossover_type="single_point",   # 单点交叉
+    mutation_type="adaptive",        # 适应性变异
+    mutation_probability=[0.7,0.1],  # 变异概率 左高右低
     on_generation=on_generation,
 )
 
