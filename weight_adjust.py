@@ -223,7 +223,7 @@ for b_idx, (x, x_class) in enumerate(train_loader): # 一个batch
     currAcc = EvaluateModel(iDLM, val_loader)
     currTrain = EvaluateModel(iDLM, train_loader)
     logger.info('batch %d/%d done, last improvement %d batches ago', b_idx, all_batches, b_idx-last_improvement)
-    logger.info('New accuracy prior training in (train): %.2f%% | (val) %.2f%%', currTrain, currAcc)
+    logger.info(' best accuracy prior training in (train): %.2f%% | (val) %.2f%%', currTrain, currAcc)
 
     if val_acc < currAcc:
         with torch.no_grad():
@@ -238,9 +238,6 @@ for b_idx, (x, x_class) in enumerate(train_loader): # 一个batch
         if val_acc > currAcc:
             with torch.no_grad():
                 setWeights(iDLM, best_weights) # 还原到最佳权重, ==就没必要换了, 贪心
-        if last_improvement + 100 < b_idx:
-            logger.info('No improvement for too long, terminating')
-            break
 
     TrainingModel(iDLM,retrain_epoch_num) # 每batch之后, 每次adjustment之后, 进行短期微调
     currAcc_after_train = EvaluateModel(iDLM, val_loader)

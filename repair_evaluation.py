@@ -40,8 +40,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-before_csv = f'output/prediction_output_{classifier}_{assign}.csv'
-after_csv = f'output/repaired_prediction_output_{classifier}_iDLM.csv'
+before_csv = f'output_repair/prediction_output_{classifier}_{assign}.csv'
+after_csv = f'output_repair/repaired_prediction_output_{classifier}_iDLM.csv'
 
 # open csv
 before_true, before_pred, before_prob = load_cols(before_csv)

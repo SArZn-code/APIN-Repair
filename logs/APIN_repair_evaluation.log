@@ -34,3 +34,39 @@
 2026-01-26 18:36:36,117 - INFO -   Kappa: 0.0084
 2026-01-26 18:36:36,118 - INFO -   AUC-ROC: 0.0046
 2026-01-26 18:36:36,118 - INFO -   AUC-PR: 0.0062
+2026-02-01 15:13:23,356 - INFO - Before metrics:
+2026-02-01 15:13:23,357 - INFO -   Conf_Matrix: {'TP': 1348, 'FP': 88, 'FN': 159, 'TN': 1419}
+2026-02-01 15:13:23,357 - INFO -   Sensitivity (Sn|Recall): 0.8945
+2026-02-01 15:13:23,357 - INFO -   Specificity (Sp|Spec): 0.9416
+2026-02-01 15:13:23,357 - INFO -   Precision (Pr): 0.9387
+2026-02-01 15:13:23,358 - INFO -   Accuracy (Acc): 0.918
+2026-02-01 15:13:23,358 - INFO -   Balanced Accuracy (Ba): 0.918
+2026-02-01 15:13:23,358 - INFO -   F1-Score: 0.9161
+2026-02-01 15:13:23,358 - INFO -   Matthews Correlation Coefficient (MCC): 0.837
+2026-02-01 15:13:23,358 - INFO -   Kappa: 0.8361
+2026-02-01 15:13:23,358 - INFO -   AUC-ROC: 0.9718
+2026-02-01 15:13:23,359 - INFO -   AUC-PR: 0.9719
+2026-02-01 15:13:23,359 - INFO - After metrics:
+2026-02-01 15:13:23,359 - INFO -   Conf_Matrix: {'TP': 1366, 'FP': 93, 'FN': 141, 'TN': 1414}
+2026-02-01 15:13:23,359 - INFO -   Sensitivity (Sn|Recall): 0.9064
+2026-02-01 15:13:23,359 - INFO -   Specificity (Sp|Spec): 0.9383
+2026-02-01 15:13:23,359 - INFO -   Precision (Pr): 0.9363
+2026-02-01 15:13:23,359 - INFO -   Accuracy (Acc): 0.9224
+2026-02-01 15:13:23,359 - INFO -   Balanced Accuracy (Ba): 0.9224
+2026-02-01 15:13:23,359 - INFO -   F1-Score: 0.9211
+2026-02-01 15:13:23,359 - INFO -   Matthews Correlation Coefficient (MCC): 0.8452
+2026-02-01 15:13:23,359 - INFO -   Kappa: 0.8447
+2026-02-01 15:13:23,359 - INFO -   AUC-ROC: 0.9734
+2026-02-01 15:13:23,359 - INFO -   AUC-PR: 0.9735
+2026-02-01 15:13:23,360 - INFO - Diff metrics (After - Before):
+2026-02-01 15:13:23,360 - INFO -   Conf_Matrix: {'TP': 18, 'FP': 5, 'FN': -18, 'TN': -5}
+2026-02-01 15:13:23,360 - INFO -   Sensitivity (Sn|Recall): 0.0119
+2026-02-01 15:13:23,360 - INFO -   Specificity (Sp|Spec): -0.0033
+2026-02-01 15:13:23,360 - INFO -   Precision (Pr): -0.0024
+2026-02-01 15:13:23,360 - INFO -   Accuracy (Acc): 0.0044
+2026-02-01 15:13:23,360 - INFO -   Balanced Accuracy (Ba): 0.0044
+2026-02-01 15:13:23,360 - INFO -   F1-Score: 0.005
+2026-02-01 15:13:23,360 - INFO -   Matthews Correlation Coefficient (MCC): 0.0082
+2026-02-01 15:13:23,361 - INFO -   Kappa: 0.0086
+2026-02-01 15:13:23,361 - INFO -   AUC-ROC: 0.0016
+2026-02-01 15:13:23,361 - INFO -   AUC-PR: 0.0016
