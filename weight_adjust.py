@@ -109,12 +109,12 @@ max_length=200
 train_batch_size = 20 
 vali_batch_size = 256
 test_batch_size = 256 
-train_true_file = 'data/DAMP/AMP.tr.fa' 
-train_false_file = 'data/DAMP/Non-AMP.tr.fa'
-valid_true_file = 'data/DAMP/AMP.eval.fa'
-valid_false_file = 'data/DAMP/Non-AMP.eval.fa'
-test_true_file = 'data/DAMP/AMP.te.fa'
-test_false_file = 'data/DAMP/Non-AMP.te.fa'
+train_true_file = 'data/DAMP/AMP.tr.fasta' 
+train_false_file = 'data/DAMP/Non-AMP.tr.fasta'
+valid_true_file = 'data/DAMP/AMP.valid.fasta'
+valid_false_file = 'data/DAMP/Non-AMP.valid.fasta'
+test_true_file = 'data/DAMP/AMP.te.fasta'
+test_false_file = 'data/DAMP/Non-AMP.te.fasta'
 
 # 加载训练集
 output = data_loader(

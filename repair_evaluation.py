@@ -29,7 +29,7 @@ classifier = 'APIN'
 assign = 'iDLM'
 
 # log recording
-log_file = Path(f'logs/{classifier}_evaluation.log')
+log_file = Path(f'logs/{classifier}_repair_evaluation.log')
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',

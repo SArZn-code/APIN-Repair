@@ -16,12 +16,12 @@ Path('weight/rDLM_weights').mkdir(parents=True, exist_ok=True)
 # Hyper-parameters
 num_epochs = 30
 batch_size = 128
-train_true_file = 'data/DAMP/AMP.tr.fa' 
-train_false_file = 'data/DAMP/Non-AMP.tr.fa'
-valid_true_file = 'data/DAMP/AMP.eval.fa'
-valid_false_file = 'data/DAMP/Non-AMP.eval.fa'
-test_true_file = 'data/DAMP/AMP.te.fa'
-test_false_file = 'data/DAMP/Non-AMP.te.fa'
+train_true_file = 'data/DAMP/AMP.tr.fasta' 
+train_false_file = 'data/DAMP/Non-AMP.tr.fasta'
+valid_true_file = 'data/DAMP/AMP.valid.fasta'
+valid_false_file = 'data/DAMP/Non-AMP.valid.fasta'
+test_true_file = 'data/DAMP/AMP.te.fasta'
+test_false_file = 'data/DAMP/Non-AMP.te.fasta'
 attention_num=64
 attention_range=14
 embed_length=128

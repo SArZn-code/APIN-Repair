@@ -18,6 +18,7 @@ reference: 10.1109/ASE.2019.00043
 `GA.py`
 6. GA evaluation
 `GA_evaluation.py`
+# data collection
 
 # Repair performance metric
 Conf_Matrix
@@ -52,7 +53,7 @@ Diff (Best Fitness - Average Fitness) 如果接近0, 算法已经失去了探索
 ### 全局序列比对
 CD-HIT
 `cd /mnt/e/Main/Dissertation/data_process/Apricot/APIN/`
-`cd-hit-2d -i ./data/DAMP/AMP.te.fa -i2 ./output_GA/top_sequences.fasta -o ./output_GA/result -c 0.9 -n 5`
+`cd-hit-2d -i ./data/DAMP/AMP.te.fasta -i2 ./output_GA/top_sequences.fasta -o ./output_GA/result -c 0.9 -n 5`
 BLAST
 ### 理化性质
 1. 等电点 (pI) 与 净电荷 (Net Charge)
