@@ -7,6 +7,7 @@ from pathlib import Path
 
 # decode中的Z, initial_population, num_parents_mating, num_genes, gene_space, sol_per_pop
 
+Path('output_GA').mkdir(parents=True, exist_ok=True)
 
 def encode_to_indices(seq_input,max_length): # 单序列编码
     protein_dict = { 
